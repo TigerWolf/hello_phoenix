@@ -5,4 +5,5 @@
     - vars/main.yml
 
   roles:
-    - {role: "HashNuke.elixir-stack", action: "migrate"}
+    # - {role: "HashNuke.elixir-stack", action: "migrate"}
+    - {role: "~/dev/ansible-elixir-stack", action: "migrate"}

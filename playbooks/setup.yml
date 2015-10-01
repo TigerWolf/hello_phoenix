@@ -5,4 +5,5 @@
     - vars/main.yml
 
   roles:
-    - {role: "HashNuke.elixir-stack", action: "setup"}
+    - {role: "~/dev/ansible-elixir-stack", action: "setup"}
+    # - { role: '/path/to/common/roles/foo', x: 1 }

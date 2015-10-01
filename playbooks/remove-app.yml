@@ -5,4 +5,5 @@
     - vars/main.yml
 
   roles:
-    - {role: "HashNuke.elixir-stack", action: "remove-app"}
+    # - {role: "HashNuke.elixir-stack", action: "remove-app"}
+    - {role: "~/dev/ansible-elixir-stack", action: "remove-app"}

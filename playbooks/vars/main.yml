@@ -1,4 +1,4 @@
 ---
 app_name: hello_phoenix
-repo_url: ""
+repo_url: "git@github.com:TigerWolf/hello_phoenix.git"
 app_port: 3001
