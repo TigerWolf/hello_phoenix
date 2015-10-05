@@ -20,6 +20,7 @@ defmodule HelloPhoenix.Router do
     get "/", PageController, :index
     resources "/activities", ActivityController
     resources "/users", UserController
+    resources "/events", EventController
 
     get    "/register", RegistrationController, :new
     post   "/register", RegistrationController, :create

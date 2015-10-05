@@ -23,3 +23,30 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Unique email for register
   * Relationships for models
   * Basic auth for api (partial - use user model auth)
+
+  +----------+       +----------+        +----------+
+  | event    +-------+ team     +--------+ user     |
+  |          |       |          |        |          |
+  +------+---+       +----------+        +-+--------+
+         |                                 |         
+         |                                 |         
+         +--+                              |         
+           +----------+             +------+---+     
+           | activity +-------------+ log      |     
+           |          |             |          |     
+           +----------+             +----------+     
+
+event
+---
+name
+dates
+
+team
+---
+name
+
+activity_log
+---
+activity_id
+amount
+user_id

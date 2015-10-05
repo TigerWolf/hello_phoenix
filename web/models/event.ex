@@ -1,16 +1,16 @@
-defmodule HelloPhoenix.Activity do
+defmodule HelloPhoenix.Event do
   use HelloPhoenix.Web, :model
 
-  schema "activities" do
+  schema "event" do
     field :name, :string
-    field :points, :integer
-    field :event_id, :integer
+    field :start_date, Ecto.DateTime
+    field :end_date, Ecto.DateTime
 
-    has_one :event, HelloPhoenix.Event
+    has_many :activites, HelloPhoenix.Activity
     timestamps
   end
 
-  @required_fields ~w(name points event_id)
+  @required_fields ~w(name start_date end_date)
   @optional_fields ~w()
 
   @doc """
