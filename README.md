@@ -17,3 +17,9 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: http://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+# TODO
+
+  * Unique email for register
+  * Relationships for models
+  * Basic auth for api (partial - use user model auth)

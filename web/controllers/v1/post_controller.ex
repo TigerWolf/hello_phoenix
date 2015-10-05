@@ -3,6 +3,8 @@ defmodule HelloPhoenix.V1.PostController do
 
   alias HelloPhoenix.Post
 
+  plug PlugBasicAuth, username: "Wayne", password: "Knight"
+
   plug :scrub_params, "post" when action in [:create, :update]
 
   def index(conn, _params) do
