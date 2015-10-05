@@ -6,8 +6,8 @@ defmodule HelloPhoenix.EventController do
   plug :scrub_params, "event" when action in [:create, :update]
 
   def index(conn, _params) do
-    event = Repo.all(Event)
-    render(conn, "index.html", event: event)
+    events = Repo.all(Event)
+    render(conn, "index.html", events: events)
   end
 
   def new(conn, _params) do

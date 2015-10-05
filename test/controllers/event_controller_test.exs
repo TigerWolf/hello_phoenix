@@ -12,7 +12,7 @@ defmodule HelloPhoenix.EventControllerTest do
 
   test "lists all entries on index", %{conn: conn} do
     conn = get conn, event_path(conn, :index)
-    assert html_response(conn, 200) =~ "Listing event"
+    assert html_response(conn, 200) =~ "Listing events"
   end
 
   test "renders form for new resources", %{conn: conn} do

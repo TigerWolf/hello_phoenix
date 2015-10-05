@@ -2,7 +2,7 @@ defmodule HelloPhoenix.Repo.Migrations.CreateEvent do
   use Ecto.Migration
 
   def change do
-    create table(:event) do
+    create table(:events) do
       add :name, :string
       add :start_date, :datetime
       add :end_date, :datetime

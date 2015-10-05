@@ -1,12 +1,11 @@
 defmodule HelloPhoenix.Event do
   use HelloPhoenix.Web, :model
 
-  schema "event" do
+  schema "events" do
     field :name, :string
     field :start_date, Ecto.DateTime
     field :end_date, Ecto.DateTime
 
-    has_many :activites, HelloPhoenix.Activity
     timestamps
   end
 
