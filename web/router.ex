@@ -1,5 +1,6 @@
 defmodule HelloPhoenix.Router do
   use HelloPhoenix.Web, :router
+  use Phoenix.Router
 
   pipeline :browser do
     plug :accepts, ["html"]
@@ -18,6 +19,14 @@ defmodule HelloPhoenix.Router do
 
     get "/", PageController, :index
     resources "/activities", ActivityController
+    resources "/users", UserController
+
+    get    "/register", RegistrationController, :new
+    post   "/register", RegistrationController, :create
+
+    get    "/login",  SessionController, :new
+    post   "/login",  SessionController, :create
+    delete "/logout", SessionController, :delete
   end
 
   #Other scopes may use custom stacks.

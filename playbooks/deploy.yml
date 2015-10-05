@@ -1,7 +1,6 @@
 ---
 - hosts: app-servers
   remote_user: deployer
-  accelerate: true # Temp
   vars_files:
     - vars/main.yml
 

@@ -19,7 +19,7 @@ defmodule HelloPhoenix.Web do
   def model do
     quote do
       use Ecto.Model
-      
+
     end
   end
 
@@ -46,6 +46,8 @@ defmodule HelloPhoenix.Web do
       use Phoenix.HTML
 
       import HelloPhoenix.Router.Helpers
+
+      import HelloPhoenix.Session, only: [current_user: 1, logged_in?: 1]
     end
   end
 

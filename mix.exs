@@ -29,12 +29,15 @@ defmodule HelloPhoenix.Mixfile do
   #
   # Type `mix help deps` for examples and options
   defp deps do
-    [{:phoenix, "~> 1.0.2"},
+    [{:phoenix, "~> 1.0.3"},
      {:phoenix_ecto, "~> 1.1"},
      {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 2.1"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:cowboy, "~> 1.0"},
-     {:exrm, "~> 0.18.1"}]
+     {:exrm, "~> 0.18.1"},
+     {:comeonin, "~> 1.0"},
+     {:plug_basic_auth, "~> 1.0"},
+   ]
   end
 end
