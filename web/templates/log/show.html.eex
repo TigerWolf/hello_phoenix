@@ -1,0 +1,23 @@
+<h2>Show log</h2>
+
+<ul>
+
+  <li>
+    <strong>Activity:</strong>
+    <%= @log.activity_id %>
+  </li>
+
+  <li>
+    <strong>Amount:</strong>
+    <%= @log.amount %>
+  </li>
+
+  <li>
+    <strong>User:</strong>
+    <%= @log.user_id %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: log_path(@conn, :edit, @log) %>
+<%= link "Back", to: log_path(@conn, :index) %>

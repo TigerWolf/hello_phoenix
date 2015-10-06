@@ -23,6 +23,7 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Unique email for register
   * Relationships for models
   * Basic auth for api (partial - use user model auth)
+  * Many-to-many for team to user
 
   +----------+       +----------+        +----------+
   | event    +-------+ team     +--------+ user     |

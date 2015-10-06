@@ -22,6 +22,7 @@ defmodule HelloPhoenix.Router do
     resources "/users", UserController
     resources "/events", EventController
     resources "/teams", TeamController
+    resources "/logs", LogController
 
     get    "/register", RegistrationController, :new
     post   "/register", RegistrationController, :create
