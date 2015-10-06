@@ -38,6 +38,7 @@ defmodule HelloPhoenix.Mixfile do
      {:exrm, "~> 0.18.1"},
      {:comeonin, "~> 1.0"},
      {:plug_basic_auth, "~> 1.0"},
+     {:logger_file_backend, "0.0.4"}
    ]
   end
 end
