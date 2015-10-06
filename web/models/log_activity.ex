@@ -1,16 +1,14 @@
-defmodule HelloPhoenix.Log do
+defmodule HelloPhoenix.LogActivity do
   use HelloPhoenix.Web, :model
 
-  schema "logs" do
-    field :amount, :integer
-    has_many :log_activities, HelloPhoenix.LogActivity
-    has_many :activities, through: [:log_activities, :activity]
-    belongs_to :user, HelloPhoenix.User
+  schema "log_activities" do
+    belongs_to :activity, HelloPhoenix.Activity
+    belongs_to :log, HelloPhoenix.Log
 
     timestamps
   end
 
-  @required_fields ~w(amount)
+  @required_fields ~w()
   @optional_fields ~w()
 
   @doc """

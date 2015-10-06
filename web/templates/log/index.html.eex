@@ -13,7 +13,7 @@
   <tbody>
 <%= for log <- @logs do %>
     <tr>
-      <td><%= log.activity_id %></td>
+      <td></td>
       <td><%= log.amount %></td>
       <td><%= log.user_id %></td>
 

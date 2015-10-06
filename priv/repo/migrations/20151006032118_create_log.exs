@@ -5,7 +5,7 @@ defmodule HelloPhoenix.Repo.Migrations.CreateLog do
     create table(:logs) do
       add :amount, :integer
       add :activity_id, references(:activities)
-      add :user_id, references(:user)
+      add :user_id, references(:users)
 
       timestamps
     end

@@ -4,7 +4,7 @@
 
   <li>
     <strong>Activity:</strong>
-    <%= @log.activity_id %>
+    <%= @log.activities.name %>
   </li>
 
   <li>

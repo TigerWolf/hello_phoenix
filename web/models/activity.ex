@@ -7,6 +7,8 @@ defmodule HelloPhoenix.Activity do
     field :event_id, :integer
 
     has_one :event, HelloPhoenix.Event
+    has_many :log_activities, HelloPhoenix.LogActivity
+    has_many :logs, through: [:log_activities, :log]
     timestamps
   end
 
