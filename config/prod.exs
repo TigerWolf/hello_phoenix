@@ -20,10 +20,10 @@ config :hello_phoenix, HelloPhoenix.Endpoint,
 # config :logger, level: :info
 
 config :logger,
-  backends: [{LoggerFileBackend, :error_log}]
+  backends: [{LoggerFileBackend, :error_log}, :info]
 
 config :logger, :error_log,
-  path: "/var/log/hello_phoenix/error.log",
+  path: "log/error.log",
   level: :error
 
 # ## SSL Support
