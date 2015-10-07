@@ -9,7 +9,7 @@ defmodule HelloPhoenix.V1.TeamController do
 
   def index(conn, _params) do
     teams = Repo.all(Team)
-    render(conn, "index.json", posts: posts)
+    render(conn, "index.json", teams: teams)
   end
 
 end

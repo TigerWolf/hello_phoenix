@@ -2284,3 +2284,242 @@ Request: GET /activities
         (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
         (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
         (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+13:04:18.270 [error] #PID<0.1916.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /api/v1/teams
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: HelloPhoenix.V1.TeamView.render/2 (module HelloPhoenix.V1.TeamView is not available)
+        HelloPhoenix.V1.TeamView.render("index.json", %{conn: %Plug.Conn{adapter: {Plug.Adapters.Cowboy.Conn, :...}, assigns: %{layout: false, teams: [%HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}]}, before_send: [#Function<1.1051886/1 in Plug.Logger.call/2>, #Function<0.66278689/1 in Phoenix.LiveReloader.before_send_inject_reloader/1>], body_params: %{}, cookies: %Plug.Conn.Unfetched{aspect: :cookies}, halted: false, host: "localhost", method: "GET", owner: #PID<0.1916.0>, params: %{}, path_info: ["api", "v1", "teams"], peer: {{127, 0, 0, 1}, 61828}, port: 4000, private: %{HelloPhoenix.Router => {[], %{}}, :phoenix_action => :index, :phoenix_controller => HelloPhoenix.V1.TeamController, :phoenix_endpoint => HelloPhoenix.Endpoint, :phoenix_format => "json", :phoenix_layout => {HelloPhoenix.LayoutView, :app}, :phoenix_pipelines => [:api], :phoenix_route => #Function<49.119151996/1 in HelloPhoenix.Router.match/4>, :phoenix_router => HelloPhoenix.Router, :phoenix_template => "index.json", :phoenix_view => HelloPhoenix.V1.TeamView, :plug_session_fetch => #Function<1.13036042/1 in Plug.Session.fetch_session/1>}, query_params: %{}, query_string: "", remote_ip: {127, 0, 0, 1}, req_cookies: %Plug.Conn.Unfetched{aspect: :cookies}, req_headers: [{"host", "localhost:4000"}, {"connection", "keep-alive"}, {"cache-control", "max-age=0"}, {"authorization", "Basic dGVzdDp1c2Vy"}, {"accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"}, {"upgrade-insecure-requests", "1"}, {"user-agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36"}, {"accept-encoding", "gzip, deflate, sdch"}, {"accept-language", "en-US,en;q=0.8"}, {"cookie", "__ll_cd={}; __ll_pa=1442295396; __ll_iu=%22d574abe5-b51f-7c9c-64dc-a0d0151fb990%22; localytics.js=1; __ll_csi=2; __ll_cst=1443408065; __ll_csu=%227ca74fb6-267f-5a80-ed97-79c7fedf9f52%22; __ll_lot=1443408065; __ll_ids={%22customer_name%22:%221046136%22}; __ll_fl=[%22Timetable%22]; __ll_lct=1443408066903; __ll_csq=3; _hello_phoenix_key=g3QAAAACbQAAAAtfY3NyZl90b2tlbm0AAAAYZ3B4MUdFOHBEK3lhNHNWTEp5S05vUT09bQAAAAxjdXJyZW50X3VzZXJhAQ==--CEBW/T3LxK20iy3TnNcv+L7867s="}], request_path: "/api/v1/teams", resp_body: nil, resp_cookies: %{}, resp_headers: [{"cache-control", "max-age=0, private, must-revalidate"}, {"x-request-id", "vhl7usd40fdn51n2v3191ld4idbobkf9"}], scheme: :http, script_name: [], secret_key_base: "WNDdLBBDgZW1GmU91kbUV1D5/tOF9J41BE1xuItAVLh/4wK9OCTrCsclTdTpVPu5", state: :unset, status: nil}, teams: [%HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}]})
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.action/2
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+13:04:34.993 [error] #PID<0.1922.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /api/v1/teams
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: HelloPhoenix.V1.TeamView.render/2 (module HelloPhoenix.V1.TeamView is not available)
+        HelloPhoenix.V1.TeamView.render("index.json", %{conn: %Plug.Conn{adapter: {Plug.Adapters.Cowboy.Conn, :...}, assigns: %{layout: false, teams: [%HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}]}, before_send: [#Function<1.1051886/1 in Plug.Logger.call/2>, #Function<0.66278689/1 in Phoenix.LiveReloader.before_send_inject_reloader/1>], body_params: %{}, cookies: %Plug.Conn.Unfetched{aspect: :cookies}, halted: false, host: "localhost", method: "GET", owner: #PID<0.1922.0>, params: %{}, path_info: ["api", "v1", "teams"], peer: {{127, 0, 0, 1}, 61839}, port: 4000, private: %{HelloPhoenix.Router => {[], %{}}, :phoenix_action => :index, :phoenix_controller => HelloPhoenix.V1.TeamController, :phoenix_endpoint => HelloPhoenix.Endpoint, :phoenix_format => "json", :phoenix_layout => {HelloPhoenix.LayoutView, :app}, :phoenix_pipelines => [:api], :phoenix_route => #Function<49.119151996/1 in HelloPhoenix.Router.match/4>, :phoenix_router => HelloPhoenix.Router, :phoenix_template => "index.json", :phoenix_view => HelloPhoenix.V1.TeamView, :plug_session_fetch => #Function<1.13036042/1 in Plug.Session.fetch_session/1>}, query_params: %{}, query_string: "", remote_ip: {127, 0, 0, 1}, req_cookies: %Plug.Conn.Unfetched{aspect: :cookies}, req_headers: [{"host", "localhost:4000"}, {"connection", "keep-alive"}, {"cache-control", "max-age=0"}, {"authorization", "Basic dGVzdDp1c2Vy"}, {"accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"}, {"upgrade-insecure-requests", "1"}, {"user-agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36"}, {"referer", "http://localhost:4000/api/v1/teams"}, {"accept-encoding", "gzip, deflate, sdch"}, {"accept-language", "en-US,en;q=0.8"}, {"cookie", "__ll_cd={}; __ll_pa=1442295396; __ll_iu=%22d574abe5-b51f-7c9c-64dc-a0d0151fb990%22; localytics.js=1; __ll_csi=2; __ll_cst=1443408065; __ll_csu=%227ca74fb6-267f-5a80-ed97-79c7fedf9f52%22; __ll_lot=1443408065; __ll_ids={%22customer_name%22:%221046136%22}; __ll_fl=[%22Timetable%22]; __ll_lct=1443408066903; __ll_csq=3; _hello_phoenix_key=g3QAAAACbQAAAAtfY3NyZl90b2tlbm0AAAAYZ3B4MUdFOHBEK3lhNHNWTEp5S05vUT09bQAAAAxjdXJyZW50X3VzZXJhAQ==--CEBW/T3LxK20iy3TnNcv+L7867s="}], request_path: "/api/v1/teams", resp_body: nil, resp_cookies: %{}, resp_headers: [{"cache-control", "max-age=0, private, must-revalidate"}, {"x-request-id", "5dlhocg384diegje128rms45kmk8umn1"}], scheme: :http, script_name: [], secret_key_base: "WNDdLBBDgZW1GmU91kbUV1D5/tOF9J41BE1xuItAVLh/4wK9OCTrCsclTdTpVPu5", state: :unset, status: nil}, teams: [%HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}]})
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.action/2
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+13:04:46.086 [error] #PID<0.1934.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /api/v1/teams
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: HelloPhoenix.V1.TeamView.render/2 (module HelloPhoenix.V1.TeamView is not available)
+        HelloPhoenix.V1.TeamView.render("index.json", %{conn: %Plug.Conn{adapter: {Plug.Adapters.Cowboy.Conn, :...}, assigns: %{layout: false, teams: [%HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}]}, before_send: [#Function<1.1051886/1 in Plug.Logger.call/2>, #Function<0.66278689/1 in Phoenix.LiveReloader.before_send_inject_reloader/1>], body_params: %{}, cookies: %Plug.Conn.Unfetched{aspect: :cookies}, halted: false, host: "localhost", method: "GET", owner: #PID<0.1934.0>, params: %{}, path_info: ["api", "v1", "teams"], peer: {{127, 0, 0, 1}, 61849}, port: 4000, private: %{HelloPhoenix.Router => {[], %{}}, :phoenix_action => :index, :phoenix_controller => HelloPhoenix.V1.TeamController, :phoenix_endpoint => HelloPhoenix.Endpoint, :phoenix_format => "json", :phoenix_layout => {HelloPhoenix.LayoutView, :app}, :phoenix_pipelines => [:api], :phoenix_route => #Function<49.119151996/1 in HelloPhoenix.Router.match/4>, :phoenix_router => HelloPhoenix.Router, :phoenix_template => "index.json", :phoenix_view => HelloPhoenix.V1.TeamView, :plug_session_fetch => #Function<1.13036042/1 in Plug.Session.fetch_session/1>}, query_params: %{}, query_string: "", remote_ip: {127, 0, 0, 1}, req_cookies: %Plug.Conn.Unfetched{aspect: :cookies}, req_headers: [{"host", "localhost:4000"}, {"connection", "keep-alive"}, {"cache-control", "max-age=0"}, {"authorization", "Basic dGVzdDp1c2Vy"}, {"accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"}, {"upgrade-insecure-requests", "1"}, {"user-agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36"}, {"referer", "http://localhost:4000/api/v1/teams"}, {"accept-encoding", "gzip, deflate, sdch"}, {"accept-language", "en-US,en;q=0.8"}, {"cookie", "__ll_cd={}; __ll_pa=1442295396; __ll_iu=%22d574abe5-b51f-7c9c-64dc-a0d0151fb990%22; localytics.js=1; __ll_csi=2; __ll_cst=1443408065; __ll_csu=%227ca74fb6-267f-5a80-ed97-79c7fedf9f52%22; __ll_lot=1443408065; __ll_ids={%22customer_name%22:%221046136%22}; __ll_fl=[%22Timetable%22]; __ll_lct=1443408066903; __ll_csq=3; _hello_phoenix_key=g3QAAAACbQAAAAtfY3NyZl90b2tlbm0AAAAYZ3B4MUdFOHBEK3lhNHNWTEp5S05vUT09bQAAAAxjdXJyZW50X3VzZXJhAQ==--CEBW/T3LxK20iy3TnNcv+L7867s="}], request_path: "/api/v1/teams", resp_body: nil, resp_cookies: %{}, resp_headers: [{"cache-control", "max-age=0, private, must-revalidate"}, {"x-request-id", "ofl56e9k3g8pglvdkm770jjtrc8qdv99"}], scheme: :http, script_name: [], secret_key_base: "WNDdLBBDgZW1GmU91kbUV1D5/tOF9J41BE1xuItAVLh/4wK9OCTrCsclTdTpVPu5", state: :unset, status: nil}, teams: [%HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}]})
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.action/2
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+13:04:51.684 [error] #PID<0.1950.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /api/v1/teams
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: HelloPhoenix.V1.TeamView.render/2 (module HelloPhoenix.V1.TeamView is not available)
+        HelloPhoenix.V1.TeamView.render("index.json", %{conn: %Plug.Conn{adapter: {Plug.Adapters.Cowboy.Conn, :...}, assigns: %{layout: false, teams: [%HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}]}, before_send: [#Function<1.1051886/1 in Plug.Logger.call/2>, #Function<0.66278689/1 in Phoenix.LiveReloader.before_send_inject_reloader/1>], body_params: %{}, cookies: %Plug.Conn.Unfetched{aspect: :cookies}, halted: false, host: "localhost", method: "GET", owner: #PID<0.1950.0>, params: %{}, path_info: ["api", "v1", "teams"], peer: {{127, 0, 0, 1}, 61859}, port: 4000, private: %{HelloPhoenix.Router => {[], %{}}, :phoenix_action => :index, :phoenix_controller => HelloPhoenix.V1.TeamController, :phoenix_endpoint => HelloPhoenix.Endpoint, :phoenix_format => "json", :phoenix_layout => {HelloPhoenix.LayoutView, :app}, :phoenix_pipelines => [:api], :phoenix_route => #Function<49.119151996/1 in HelloPhoenix.Router.match/4>, :phoenix_router => HelloPhoenix.Router, :phoenix_template => "index.json", :phoenix_view => HelloPhoenix.V1.TeamView, :plug_session_fetch => #Function<1.13036042/1 in Plug.Session.fetch_session/1>}, query_params: %{}, query_string: "", remote_ip: {127, 0, 0, 1}, req_cookies: %Plug.Conn.Unfetched{aspect: :cookies}, req_headers: [{"host", "localhost:4000"}, {"connection", "keep-alive"}, {"cache-control", "max-age=0"}, {"authorization", "Basic dGVzdDp1c2Vy"}, {"accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"}, {"upgrade-insecure-requests", "1"}, {"user-agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36"}, {"referer", "http://localhost:4000/api/v1/teams"}, {"accept-encoding", "gzip, deflate, sdch"}, {"accept-language", "en-US,en;q=0.8"}, {"cookie", "__ll_cd={}; __ll_pa=1442295396; __ll_iu=%22d574abe5-b51f-7c9c-64dc-a0d0151fb990%22; localytics.js=1; __ll_csi=2; __ll_cst=1443408065; __ll_csu=%227ca74fb6-267f-5a80-ed97-79c7fedf9f52%22; __ll_lot=1443408065; __ll_ids={%22customer_name%22:%221046136%22}; __ll_fl=[%22Timetable%22]; __ll_lct=1443408066903; __ll_csq=3; _hello_phoenix_key=g3QAAAACbQAAAAtfY3NyZl90b2tlbm0AAAAYZ3B4MUdFOHBEK3lhNHNWTEp5S05vUT09bQAAAAxjdXJyZW50X3VzZXJhAQ==--CEBW/T3LxK20iy3TnNcv+L7867s="}], request_path: "/api/v1/teams", resp_body: nil, resp_cookies: %{}, resp_headers: [{"cache-control", "max-age=0, private, must-revalidate"}, {"x-request-id", "vu29cg9h2v166auqm4pvj7rlscahmckn"}], scheme: :http, script_name: [], secret_key_base: "WNDdLBBDgZW1GmU91kbUV1D5/tOF9J41BE1xuItAVLh/4wK9OCTrCsclTdTpVPu5", state: :unset, status: nil}, teams: [%HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}]})
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.action/2
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+13:04:57.330 [error] #PID<0.1964.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /api/v1/teams
+** (exit) an exception was raised:
+    ** (Phoenix.Template.UndefinedError) Could not render "index.json" for HelloPhoenix.V1.TeamView, please define a matching clause for render/2 or define a template at "web/templates/v1/team". No templates were compiled for this module.
+Assigns:
+
+%{conn: %Plug.Conn{adapter: {Plug.Adapters.Cowboy.Conn, :...}, assigns: %{layout: false, teams: [%HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}]}, before_send: [#Function<1.1051886/1 in Plug.Logger.call/2>, #Function<0.66278689/1 in Phoenix.LiveReloader.before_send_inject_reloader/1>], body_params: %{}, cookies: %Plug.Conn.Unfetched{aspect: :cookies}, halted: false, host: "localhost", method: "GET", owner: #PID<0.1964.0>, params: %{}, path_info: ["api", "v1", "teams"], peer: {{127, 0, 0, 1}, 61866}, port: 4000, private: %{HelloPhoenix.Router => {[], %{}}, :phoenix_action => :index, :phoenix_controller => HelloPhoenix.V1.TeamController, :phoenix_endpoint => HelloPhoenix.Endpoint, :phoenix_format => "json", :phoenix_layout => {HelloPhoenix.LayoutView, :app}, :phoenix_pipelines => [:api], :phoenix_route => #Function<49.119151996/1 in HelloPhoenix.Router.match/4>, :phoenix_router => HelloPhoenix.Router, :phoenix_template => "index.json", :phoenix_view => HelloPhoenix.V1.TeamView, :plug_session_fetch => #Function<1.13036042/1 in Plug.Session.fetch_session/1>}, query_params: %{}, query_string: "", remote_ip: {127, 0, 0, 1}, req_cookies: %Plug.Conn.Unfetched{aspect: :cookies}, req_headers: [{"host", "localhost:4000"}, {"connection", "keep-alive"}, {"cache-control", "max-age=0"}, {"authorization", "Basic dGVzdDp1c2Vy"}, {"accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"}, {"upgrade-insecure-requests", "1"}, {"user-agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36"}, {"referer", "http://localhost:4000/api/v1/teams"}, {"accept-encoding", "gzip, deflate, sdch"}, {"accept-language", "en-US,en;q=0.8"}, {"cookie", "__ll_cd={}; __ll_pa=1442295396; __ll_iu=%22d574abe5-b51f-7c9c-64dc-a0d0151fb990%22; localytics.js=1; __ll_csi=2; __ll_cst=1443408065; __ll_csu=%227ca74fb6-267f-5a80-ed97-79c7fedf9f52%22; __ll_lot=1443408065; __ll_ids={%22customer_name%22:%221046136%22}; __ll_fl=[%22Timetable%22]; __ll_lct=1443408066903; __ll_csq=3; _hello_phoenix_key=g3QAAAACbQAAAAtfY3NyZl90b2tlbm0AAAAYZ3B4MUdFOHBEK3lhNHNWTEp5S05vUT09bQAAAAxjdXJyZW50X3VzZXJhAQ==--CEBW/T3LxK20iy3TnNcv+L7867s="}], request_path: "/api/v1/teams", resp_body: nil, resp_cookies: %{}, resp_headers: [{"cache-control", "max-age=0, private, must-revalidate"}, {"x-request-id", "l1buqpgm9lve91t8pdksat8ehnnrhgvs"}], scheme: :http, script_name: [], secret_key_base: "WNDdLBBDgZW1GmU91kbUV1D5/tOF9J41BE1xuItAVLh/4wK9OCTrCsclTdTpVPu5", state: :unset, status: nil}, teams: [%HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}]}
+
+        web/views/v1/team_view.ex:2: HelloPhoenix.V1.TeamView.template_not_found/2
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.action/2
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+13:06:37.300 [error] #PID<0.2032.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /api/v1/teams
+** (exit) an exception was raised:
+    ** (Phoenix.Template.UndefinedError) Could not render "team.json" for HelloPhoenix.V1.TeamView, please define a matching clause for render/2 or define a template at "web/templates/v1/team". No templates were compiled for this module.
+Assigns:
+
+%{team: %HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}}
+
+        web/views/v1/team_view.ex:2: HelloPhoenix.V1.TeamView.template_not_found/2
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+        web/views/v1/team_view.ex:5: HelloPhoenix.V1.TeamView.render/2
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.action/2
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+13:06:38.284 [error] #PID<0.2054.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /api/v1/teams
+** (exit) an exception was raised:
+    ** (Phoenix.Template.UndefinedError) Could not render "team.json" for HelloPhoenix.V1.TeamView, please define a matching clause for render/2 or define a template at "web/templates/v1/team". No templates were compiled for this module.
+Assigns:
+
+%{team: %HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}}
+
+        web/views/v1/team_view.ex:2: HelloPhoenix.V1.TeamView.template_not_found/2
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+        web/views/v1/team_view.ex:5: HelloPhoenix.V1.TeamView.render/2
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.action/2
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+13:06:58.523 [error] #PID<0.2062.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /api/v1/teams
+** (exit) an exception was raised:
+    ** (Phoenix.Template.UndefinedError) Could not render "team.json" for HelloPhoenix.V1.TeamView, please define a matching clause for render/2 or define a template at "web/templates/v1/team". No templates were compiled for this module.
+Assigns:
+
+%{team: %HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}}
+
+        web/views/v1/team_view.ex:2: HelloPhoenix.V1.TeamView.template_not_found/2
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+        web/views/v1/team_view.ex:5: HelloPhoenix.V1.TeamView.render/2
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.action/2
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+13:07:03.526 [error] #PID<0.2069.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /api/v1/teams
+** (exit) an exception was raised:
+    ** (Phoenix.Template.UndefinedError) Could not render "teams.json" for HelloPhoenix.V1.TeamView, please define a matching clause for render/2 or define a template at "web/templates/v1/team". No templates were compiled for this module.
+Assigns:
+
+%{team: %HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}}
+
+        web/views/v1/team_view.ex:2: HelloPhoenix.V1.TeamView.template_not_found/2
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+        web/views/v1/team_view.ex:5: HelloPhoenix.V1.TeamView.render/2
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.action/2
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+13:07:04.152 [error] #PID<0.2083.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /api/v1/teams
+** (exit) an exception was raised:
+    ** (Phoenix.Template.UndefinedError) Could not render "teams.json" for HelloPhoenix.V1.TeamView, please define a matching clause for render/2 or define a template at "web/templates/v1/team". No templates were compiled for this module.
+Assigns:
+
+%{team: %HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}}
+
+        web/views/v1/team_view.ex:2: HelloPhoenix.V1.TeamView.template_not_found/2
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+        web/views/v1/team_view.ex:5: HelloPhoenix.V1.TeamView.render/2
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.action/2
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+13:07:08.960 [error] #PID<0.2088.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /api/v1/teams
+** (exit) an exception was raised:
+    ** (Phoenix.Template.UndefinedError) Could not render "team.json" for HelloPhoenix.V1.TeamView, please define a matching clause for render/2 or define a template at "web/templates/v1/team". No templates were compiled for this module.
+Assigns:
+
+%{team: %HelloPhoenix.Team{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: nil, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T03:22:12Z>, name: "The Best", updated_at: #Ecto.DateTime<2015-10-06T03:22:12Z>}}
+
+        web/views/v1/team_view.ex:2: HelloPhoenix.V1.TeamView.template_not_found/2
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+        web/views/v1/team_view.ex:5: HelloPhoenix.V1.TeamView.render/2
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.action/2
+        web/controllers/v1/team_controller.ex:1: HelloPhoenix.V1.TeamController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
