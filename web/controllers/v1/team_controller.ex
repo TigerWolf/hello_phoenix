@@ -12,4 +12,9 @@ defmodule HelloPhoenix.V1.TeamController do
     render(conn, "index.json", teams: teams)
   end
 
+  def show(conn, %{"id" => id}) do
+    team = Repo.get!(Team, id)
+    render conn, "show.json", team: team
+  end
+
 end
