@@ -1,0 +1,2286 @@
+15:57:11.221 [error] #PID<0.555.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (Ecto.QueryError) deps/ecto/lib/ecto/association.ex:336: field `HelloPhoenix.Activity.log_id` in `where` does not exist in the model source in query:
+
+from a in HelloPhoenix.Activity,
+  where: a.log_id in ^[1],
+  order_by: [asc: a.log_id]
+
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1102: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+        (ecto) lib/ecto/repo/queryable.ex:91: Ecto.Repo.Queryable.execute/5
+        (ecto) lib/ecto/repo/queryable.ex:15: Ecto.Repo.Queryable.all/4
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+15:57:16.581 [error] #PID<0.574.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (Ecto.QueryError) deps/ecto/lib/ecto/association.ex:336: field `HelloPhoenix.Activity.log_id` in `where` does not exist in the model source in query:
+
+from a in HelloPhoenix.Activity,
+  where: a.log_id in ^[1],
+  order_by: [asc: a.log_id]
+
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1102: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+        (ecto) lib/ecto/repo/queryable.ex:91: Ecto.Repo.Queryable.execute/5
+        (ecto) lib/ecto/repo/queryable.ex:15: Ecto.Repo.Queryable.all/4
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+16:00:59.745 [error] #PID<0.556.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (Ecto.QueryError) deps/ecto/lib/ecto/association.ex:336: field `HelloPhoenix.Activity.log_id` in `where` does not exist in the model source in query:
+
+from a in HelloPhoenix.Activity,
+  where: a.log_id in ^[1],
+  order_by: [asc: a.log_id]
+
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1102: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+        (ecto) lib/ecto/repo/queryable.ex:91: Ecto.Repo.Queryable.execute/5
+        (ecto) lib/ecto/repo/queryable.ex:15: Ecto.Repo.Queryable.all/4
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+16:01:00.842 [error] #PID<0.557.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (Ecto.QueryError) deps/ecto/lib/ecto/association.ex:336: field `HelloPhoenix.Activity.log_id` in `where` does not exist in the model source in query:
+
+from a in HelloPhoenix.Activity,
+  where: a.log_id in ^[1],
+  order_by: [asc: a.log_id]
+
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1102: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+        (ecto) lib/ecto/repo/queryable.ex:91: Ecto.Repo.Queryable.execute/5
+        (ecto) lib/ecto/repo/queryable.ex:15: Ecto.Repo.Queryable.all/4
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+16:01:03.438 [error] #PID<0.558.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (Ecto.QueryError) deps/ecto/lib/ecto/association.ex:336: field `HelloPhoenix.Activity.log_id` in `where` does not exist in the model source in query:
+
+from a in HelloPhoenix.Activity,
+  where: a.log_id in ^[1],
+  order_by: [asc: a.log_id]
+
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1102: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+        (ecto) lib/ecto/repo/queryable.ex:91: Ecto.Repo.Queryable.execute/5
+        (ecto) lib/ecto/repo/queryable.ex:15: Ecto.Repo.Queryable.all/4
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+16:01:06.093 [error] #PID<0.579.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (Ecto.QueryError) deps/ecto/lib/ecto/association.ex:336: field `HelloPhoenix.Activity.log_id` in `where` does not exist in the model source in query:
+
+from a in HelloPhoenix.Activity,
+  where: a.log_id in ^[1],
+  order_by: [asc: a.log_id]
+
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1102: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+        (ecto) lib/ecto/repo/queryable.ex:91: Ecto.Repo.Queryable.execute/5
+        (ecto) lib/ecto/repo/queryable.ex:15: Ecto.Repo.Queryable.all/4
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+16:05:56.469 [error] #PID<0.556.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (Ecto.QueryError) deps/ecto/lib/ecto/association.ex:336: field `HelloPhoenix.Activity.log_id` in `where` does not exist in the model source in query:
+
+from a in HelloPhoenix.Activity,
+  where: a.log_id in ^[1],
+  order_by: [asc: a.log_id]
+
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1102: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+        (ecto) lib/ecto/repo/queryable.ex:91: Ecto.Repo.Queryable.execute/5
+        (ecto) lib/ecto/repo/queryable.ex:15: Ecto.Repo.Queryable.all/4
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+16:05:59.031 [error] #PID<0.557.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (Ecto.QueryError) deps/ecto/lib/ecto/association.ex:336: field `HelloPhoenix.Activity.log_id` in `where` does not exist in the model source in query:
+
+from a in HelloPhoenix.Activity,
+  where: a.log_id in ^[1],
+  order_by: [asc: a.log_id]
+
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1102: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+        (ecto) lib/ecto/repo/queryable.ex:91: Ecto.Repo.Queryable.execute/5
+        (ecto) lib/ecto/repo/queryable.ex:15: Ecto.Repo.Queryable.all/4
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+16:11:52.716 [error] #PID<0.333.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (KeyError) key :activity_id not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: [], amount: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, log_activities: [], updated_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/index.html.eex:16: anonymous fn/3 in HelloPhoenix.LogView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/log/index.html.eex:14: HelloPhoenix.LogView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:11:53.827 [error] #PID<0.340.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (KeyError) key :activity_id not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: [], amount: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, log_activities: [], updated_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/index.html.eex:16: anonymous fn/3 in HelloPhoenix.LogView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/log/index.html.eex:14: HelloPhoenix.LogView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:14:08.467 [error] #PID<0.359.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (KeyError) key :activity not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: [], amount: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, log_activities: [], updated_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/index.html.eex:16: anonymous fn/3 in HelloPhoenix.LogView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/log/index.html.eex:14: HelloPhoenix.LogView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:14:15.090 [error] #PID<0.377.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (KeyError) key :activites not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: [], amount: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, log_activities: [], updated_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/index.html.eex:16: anonymous fn/3 in HelloPhoenix.LogView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/log/index.html.eex:14: HelloPhoenix.LogView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:14:38.635 [error] #PID<0.392.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (Protocol.UndefinedError) protocol Phoenix.HTML.Safe not implemented for %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: [], amount: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, log_activities: [], updated_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (phoenix_html) lib/phoenix_html/safe.ex:1: Phoenix.HTML.Safe.impl_for!/1
+        (phoenix_html) lib/phoenix_html/safe.ex:15: Phoenix.HTML.Safe.to_iodata/1
+        (hello_phoenix) web/templates/log/index.html.eex:16: anonymous fn/3 in HelloPhoenix.LogView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/log/index.html.eex:14: HelloPhoenix.LogView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:17:00.714 [error] #PID<0.462.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (KeyError) key :__meta__ not found in: %Ecto.Changeset{action: nil, changes: %{}, constraints: [], errors: [], filters: %{}, model: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:built>, activities: #Ecto.Association.NotLoaded<association :activities is not loaded>, amount: nil, id: nil, inserted_at: nil, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, updated_at: nil, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}, optional: [], opts: [], params: nil, repo: nil, required: [:amount], types: %{amount: :integer, id: :id, inserted_at: Ecto.DateTime, log_activities: {:assoc, %Ecto.Association.Has{cardinality: :many, defaults: [], field: :log_activities, on_cast: :changeset, on_delete: :nothing, on_replace: :raise, owner: HelloPhoenix.Log, owner_key: :id, queryable: HelloPhoenix.LogActivity, related: HelloPhoenix.LogActivity, related_key: :log_id}}, updated_at: Ecto.DateTime, user_id: :id}, valid?: false, validations: []}
+        (hello_phoenix) web/controllers/log_controller.ex:14: HelloPhoenix.LogController.new/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:17:30.218 [error] #PID<0.483.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (KeyError) key :__meta__ not found in: %Ecto.Changeset{action: nil, changes: %{}, constraints: [], errors: [], filters: %{}, model: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:built>, activities: #Ecto.Association.NotLoaded<association :activities is not loaded>, amount: nil, id: nil, inserted_at: nil, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, updated_at: nil, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}, optional: [], opts: [], params: nil, repo: nil, required: [:amount], types: %{amount: :integer, id: :id, inserted_at: Ecto.DateTime, log_activities: {:assoc, %Ecto.Association.Has{cardinality: :many, defaults: [], field: :log_activities, on_cast: :changeset, on_delete: :nothing, on_replace: :raise, owner: HelloPhoenix.Log, owner_key: :id, queryable: HelloPhoenix.LogActivity, related: HelloPhoenix.LogActivity, related_key: :log_id}}, updated_at: Ecto.DateTime, user_id: :id}, valid?: false, validations: []}
+        (hello_phoenix) web/controllers/log_controller.ex:14: HelloPhoenix.LogController.new/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:23:03.120 [error] #PID<0.613.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:23:03.581 [error] #PID<0.625.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:25:28.255 [error] #PID<0.644.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:28:35.407 [error] #PID<0.342.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:28:36.559 [error] #PID<0.346.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:28:56.467 [error] #PID<0.362.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:29:10.043 [error] #PID<0.377.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:29:16.937 [error] #PID<0.393.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:29:17.847 [error] #PID<0.405.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:29:18.385 [error] #PID<0.410.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:29:18.745 [error] #PID<0.415.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:29:25.231 [error] #PID<0.333.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:29:58.125 [error] #PID<0.348.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: Repo.preload/2 (module Repo is not available)
+        Repo.preload(%Ecto.Changeset{action: nil, changes: %{}, constraints: [], errors: [], filters: %{}, model: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:built>, activities: [], amount: nil, id: nil, inserted_at: nil, log_activities: [], updated_at: nil, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}, optional: [], opts: [], params: nil, repo: nil, required: [:amount], types: %{amount: :integer, id: :id, inserted_at: Ecto.DateTime, log_activities: {:assoc, %Ecto.Association.Has{cardinality: :many, defaults: [], field: :log_activities, on_cast: :changeset, on_delete: :nothing, on_replace: :raise, owner: HelloPhoenix.Log, owner_key: :id, queryable: HelloPhoenix.LogActivity, related: HelloPhoenix.LogActivity, related_key: :log_id}}, updated_at: Ecto.DateTime, user_id: :id}, valid?: false, validations: []}, [:activities])
+        (hello_phoenix) web/controllers/log_controller.ex:14: HelloPhoenix.LogController.new/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:33:49.969 [error] #PID<0.444.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:33:53.892 [error] #PID<0.445.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:33:54.742 [error] #PID<0.483.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:34:08.508 [error] #PID<0.502.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :user from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:34:10.611 [error] #PID<0.514.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :user from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:34:14.267 [error] #PID<0.517.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+16:44:33.551 [error] #PID<0.333.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (ArgumentError) could not generate inputs for :activities from HelloPhoenix.Log. Check the field exists and it is one of embeds_* or has_*
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:206: Phoenix.HTML.FormData.Ecto.Changeset.find_inputs_for_type!/2
+        (phoenix_ecto) lib/phoenix_ecto/html.ex:35: Phoenix.HTML.FormData.Ecto.Changeset.to_form/4
+        (phoenix_html) lib/phoenix_html/form.ex:259: Phoenix.HTML.Form.inputs_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:07:21.286 [error] #PID<0.369.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (KeyError) key :activities not found in: %Ecto.Changeset{action: nil, changes: %{}, constraints: [], errors: [], filters: %{}, model: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:built>, activities: [], amount: nil, id: nil, inserted_at: nil, log_activities: [], updated_at: nil, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}, optional: [], opts: [], params: nil, repo: nil, required: [:amount], types: %{amount: :integer, id: :id, inserted_at: Ecto.DateTime, log_activities: {:assoc, %Ecto.Association.Has{cardinality: :many, defaults: [], field: :log_activities, on_cast: :changeset, on_delete: :nothing, on_replace: :raise, owner: HelloPhoenix.Log, owner_key: :id, queryable: HelloPhoenix.LogActivity, related: HelloPhoenix.LogActivity, related_key: :log_id}}, updated_at: Ecto.DateTime, user_id: :id}, valid?: false, validations: []}
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:07:51.835 [error] #PID<0.393.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (KeyError) key :activities not found in: %Ecto.Changeset{action: nil, changes: %{}, constraints: [], errors: [], filters: %{}, model: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:built>, activities: [], amount: nil, id: nil, inserted_at: nil, log_activities: [], updated_at: nil, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}, optional: [], opts: [], params: nil, repo: nil, required: [:amount], types: %{amount: :integer, id: :id, inserted_at: Ecto.DateTime, log_activities: {:assoc, %Ecto.Association.Has{cardinality: :many, defaults: [], field: :log_activities, on_cast: :changeset, on_delete: :nothing, on_replace: :raise, owner: HelloPhoenix.Log, owner_key: :id, queryable: HelloPhoenix.LogActivity, related: HelloPhoenix.LogActivity, related_key: :log_id}}, updated_at: Ecto.DateTime, user_id: :id}, valid?: false, validations: []}
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:07:52.350 [error] #PID<0.405.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (KeyError) key :activities not found in: %Ecto.Changeset{action: nil, changes: %{}, constraints: [], errors: [], filters: %{}, model: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:built>, activities: [], amount: nil, id: nil, inserted_at: nil, log_activities: [], updated_at: nil, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}, optional: [], opts: [], params: nil, repo: nil, required: [:amount], types: %{amount: :integer, id: :id, inserted_at: Ecto.DateTime, log_activities: {:assoc, %Ecto.Association.Has{cardinality: :many, defaults: [], field: :log_activities, on_cast: :changeset, on_delete: :nothing, on_replace: :raise, owner: HelloPhoenix.Log, owner_key: :id, queryable: HelloPhoenix.LogActivity, related: HelloPhoenix.LogActivity, related_key: :log_id}}, updated_at: Ecto.DateTime, user_id: :id}, valid?: false, validations: []}
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:07:57.404 [error] #PID<0.408.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (KeyError) key :activities not found in: %Ecto.Changeset{action: nil, changes: %{}, constraints: [], errors: [], filters: %{}, model: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:built>, activities: [], amount: nil, id: nil, inserted_at: nil, log_activities: [], updated_at: nil, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}, optional: [], opts: [], params: nil, repo: nil, required: [:amount], types: %{amount: :integer, id: :id, inserted_at: Ecto.DateTime, log_activities: {:assoc, %Ecto.Association.Has{cardinality: :many, defaults: [], field: :log_activities, on_cast: :changeset, on_delete: :nothing, on_replace: :raise, owner: HelloPhoenix.Log, owner_key: :id, queryable: HelloPhoenix.LogActivity, related: HelloPhoenix.LogActivity, related_key: :log_id}}, updated_at: Ecto.DateTime, user_id: :id}, valid?: false, validations: []}
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:08:14.856 [error] #PID<0.421.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/new
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: Ecto.Changeset.fetch/2
+        (ecto) Ecto.Changeset.fetch(%Ecto.Changeset{action: nil, changes: %{}, constraints: [], errors: [], filters: %{}, model: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:built>, activities: [], amount: nil, id: nil, inserted_at: nil, log_activities: [], updated_at: nil, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}, optional: [], opts: [], params: nil, repo: nil, required: [:amount], types: %{amount: :integer, id: :id, inserted_at: Ecto.DateTime, log_activities: {:assoc, %Ecto.Association.Has{cardinality: :many, defaults: [], field: :log_activities, on_cast: :changeset, on_delete: :nothing, on_replace: :raise, owner: HelloPhoenix.Log, owner_key: :id, queryable: HelloPhoenix.LogActivity, related: HelloPhoenix.LogActivity, related_key: :log_id}}, updated_at: Ecto.DateTime, user_id: :id}, valid?: false, validations: []}, "activities")
+        (elixir) lib/access.ex:72: Access.get/3
+        (hello_phoenix) web/templates/log/form.html.eex:15: anonymous fn/2 in HelloPhoenix.LogView.form.html/1
+        (phoenix_html) lib/phoenix_html/form.ex:227: Phoenix.HTML.Form.form_for/4
+        (hello_phoenix) web/templates/log/form.html.eex:1: HelloPhoenix.LogView."form.html"/1
+        (hello_phoenix) web/templates/log/new.html.eex:3: HelloPhoenix.LogView."new.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:13:45.282 [error] #PID<0.587.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/1
+** (exit) an exception was raised:
+    ** (KeyError) key :activity_id not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: #Ecto.Association.NotLoaded<association :activities is not loaded>, amount: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, updated_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:15:33.407 [error] #PID<0.596.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/1
+** (exit) an exception was raised:
+    ** (KeyError) key :activity_id not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: #Ecto.Association.NotLoaded<association :activities is not loaded>, amount: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, updated_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:16:02.200 [error] #PID<0.611.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/1
+** (exit) an exception was raised:
+    ** (KeyError) key :activity_id not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: #Ecto.Association.NotLoaded<association :activities is not loaded>, amount: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, log_activities: [], updated_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:16:12.091 [error] #PID<0.626.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/1
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :log_activities.__struct__/0 (module :log_activities is not available)
+        :log_activities.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:16:34.158 [error] #PID<0.642.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/1
+** (exit) an exception was raised:
+    ** (KeyError) key :activity_id not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: [], amount: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, log_activities: [], updated_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:16:45.749 [error] #PID<0.657.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/1
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :activities.__struct__/0 (module :activities is not available)
+        :activities.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:16:58.429 [error] #PID<0.672.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/1
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:17:02.887 [error] #PID<0.684.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/1
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :users.__struct__/0 (module :users is not available)
+        :users.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:21:05.426 [error] #PID<0.752.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :users.__struct__/0 (module :users is not available)
+        :users.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:21:23.396 [error] #PID<0.772.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :activity_id not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: #Ecto.Association.NotLoaded<association :activities is not loaded>, amount: 1, id: 2, inserted_at: #Ecto.DateTime<2015-10-06T06:39:13Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, updated_at: #Ecto.DateTime<2015-10-06T06:39:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:21:39.474 [error] #PID<0.787.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :activity_id not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: #Ecto.Association.NotLoaded<association :activities is not loaded>, amount: 1, id: 2, inserted_at: #Ecto.DateTime<2015-10-06T06:39:13Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, updated_at: #Ecto.DateTime<2015-10-06T06:39:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:21:47.338 [error] #PID<0.793.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :activity_id not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: #Ecto.Association.NotLoaded<association :activities is not loaded>, amount: 1, id: 2, inserted_at: #Ecto.DateTime<2015-10-06T06:39:13Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, updated_at: #Ecto.DateTime<2015-10-06T06:39:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:23:27.137 [error] #PID<0.800.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :first not found in: #Ecto.Association.NotLoaded<association :activities is not loaded>
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:23:27.527 [error] #PID<0.812.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :first not found in: #Ecto.Association.NotLoaded<association :activities is not loaded>
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:23:38.060 [error] #PID<0.819.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) argument error
+        :erlang.apply([], :first, [])
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:23:57.446 [error] #PID<0.862.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: nil.id/0
+        nil.id()
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:24:01.801 [error] #PID<0.874.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: nil.name/0
+        nil.name()
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:24:02.429 [error] #PID<0.888.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: nil.name/0
+        nil.name()
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:24:13.399 [error] #PID<0.917.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) argument error
+        :erlang.apply([], :count, [])
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:24:20.226 [error] #PID<0.933.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) argument error
+        :erlang.apply([], :count, [])
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:24:54.687 [error] #PID<0.963.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) lists in Phoenix.HTML and templates may only contain integers, binaries or other lists, got invalid entry: %HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}
+        (phoenix_html) lib/phoenix_html/safe.ex:55: Phoenix.HTML.Safe.List.to_iodata/1
+        (phoenix_html) lib/phoenix_html/safe.ex:29: Phoenix.HTML.Safe.List.to_iodata/1
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:25:07.077 [error] #PID<0.985.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: nil.id/0
+        nil.id()
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:25:07.381 [error] #PID<0.973.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: nil.id/0
+        nil.id()
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:31:09.183 [error] #PID<0.1050.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) lists in Phoenix.HTML and templates may only contain integers, binaries or other lists, got invalid entry: %HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}
+        (phoenix_html) lib/phoenix_html/safe.ex:55: Phoenix.HTML.Safe.List.to_iodata/1
+        (phoenix_html) lib/phoenix_html/safe.ex:29: Phoenix.HTML.Safe.List.to_iodata/1
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:31:22.208 [error] #PID<0.1079.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: nil.methods/0
+        nil.methods()
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:31:28.480 [error] #PID<0.1091.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) lists in Phoenix.HTML and templates may only contain integers, binaries or other lists, got invalid entry: %HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}
+        (phoenix_html) lib/phoenix_html/safe.ex:55: Phoenix.HTML.Safe.List.to_iodata/1
+        (phoenix_html) lib/phoenix_html/safe.ex:29: Phoenix.HTML.Safe.List.to_iodata/1
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:31:51.427 [error] #PID<0.1121.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) argument error
+        :erlang.apply([%HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}], :event_id, [])
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:31:57.025 [error] #PID<0.1136.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) lists in Phoenix.HTML and templates may only contain integers, binaries or other lists, got invalid entry: %HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}
+        (phoenix_html) lib/phoenix_html/safe.ex:55: Phoenix.HTML.Safe.List.to_iodata/1
+        (phoenix_html) lib/phoenix_html/safe.ex:29: Phoenix.HTML.Safe.List.to_iodata/1
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:32:44.681 [error] #PID<0.1180.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) argument error
+        :erlang.apply([%HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}], :name, [])
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:32:50.914 [error] #PID<0.1195.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) argument error
+        :erlang.apply(%HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activities: [%HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}], amount: 1, id: 2, inserted_at: #Ecto.DateTime<2015-10-06T06:39:13Z>, log_activities: [%HelloPhoenix.LogActivity{__meta__: #Ecto.Schema.Metadata<:loaded>, activity: %HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}, activity_id: 1, id: 2, inserted_at: #Ecto.DateTime<2015-10-06T17:20:55Z>, log: #Ecto.Association.NotLoaded<association :log is not loaded>, log_id: 2, updated_at: #Ecto.DateTime<2015-10-06T17:20:58Z>}], updated_at: #Ecto.DateTime<2015-10-06T06:39:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}, :activities, [])
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:32:53.489 [error] #PID<0.1207.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) argument error
+        :erlang.apply([%HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}], :name, [])
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:36:46.838 [error] #PID<0.1226.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) lists in Phoenix.HTML and templates may only contain integers, binaries or other lists, got invalid entry: %HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}
+        (phoenix_html) lib/phoenix_html/safe.ex:55: Phoenix.HTML.Safe.List.to_iodata/1
+        (phoenix_html) lib/phoenix_html/safe.ex:29: Phoenix.HTML.Safe.List.to_iodata/1
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:36:46.861 [error] #PID<0.1234.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) lists in Phoenix.HTML and templates may only contain integers, binaries or other lists, got invalid entry: %HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}
+        (phoenix_html) lib/phoenix_html/safe.ex:55: Phoenix.HTML.Safe.List.to_iodata/1
+        (phoenix_html) lib/phoenix_html/safe.ex:29: Phoenix.HTML.Safe.List.to_iodata/1
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:37:32.211 [error] #PID<0.1244.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) lists in Phoenix.HTML and templates may only contain integers, binaries or other lists, got invalid entry: %HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}
+        (phoenix_html) lib/phoenix_html/safe.ex:55: Phoenix.HTML.Safe.List.to_iodata/1
+        (phoenix_html) lib/phoenix_html/safe.ex:29: Phoenix.HTML.Safe.List.to_iodata/1
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+17:37:36.629 [error] #PID<0.1247.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) argument error
+        :erlang.apply([%HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, event_id: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, log_activities: #Ecto.Association.NotLoaded<association :log_activities is not loaded>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}], :name, [])
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:07:20.171 [error] #PID<0.391.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/1
+** (exit) an exception was raised:
+    ** (ArgumentError) argument error
+        :erlang.apply([], :name, [])
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:08:14.383 [error] #PID<0.437.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/5
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: nil.name/0
+        nil.name()
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:08:18.288 [error] #PID<0.440.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/1
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: nil.name/0
+        nil.name()
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:23:01.236 [error] GenServer #PID<0.23.0> terminating
+** (stop) :eio
+Last message: {:EXIT, #PID<0.24.0>, :eio}
+State: {:state, :user_sup, :undefined, #PID<0.24.0>, {#PID<0.23.0>, :user_sup}}
+10:23:01.237 [error] GenEvent handler Logger.Backends.Console installed at Logger
+** (exit) an exception was raised:
+    ** (ArgumentError) argument error
+        (stdlib) :io.put_chars(:user, :unicode, [[[] | "\e[36m"], [["10", 58, "23", 58, [48, "1"], 46, "236"], " ", [["request_id", 61, "5rl79su9iaeim78m2iork94dt0c6h0vh", 32]], "[", "debug", "] ", ["Processing by ", "HelloPhoenix.LogController", 46, "show", 47, 50, 10, "  Parameters: ", "%{\"id\" => \"2\"}", 10, "  Pipelines: ", "[:browser]"], "\n"] | "\e[0m"])
+        (logger) lib/logger/backends/console.ex:29: Logger.Backends.Console.handle_event/2
+        (elixir) lib/gen_event.ex:1093: GenEvent.do_handler/3
+        (elixir) lib/gen_event.ex:934: GenEvent.server_update/5
+        (elixir) lib/gen_event.ex:919: GenEvent.server_notify/7
+        (elixir) lib/gen_event.ex:892: GenEvent.server_event/4
+        (elixir) lib/gen_event.ex:681: GenEvent.handle_msg/5
+        (stdlib) proc_lib.erl:240: :proc_lib.init_p_do_apply/3
+10:23:01.238 [error] GenEvent handler Logger.Backends.Console installed in Logger terminating
+** (ArgumentError) argument error
+    (stdlib) :io.put_chars(:user, :unicode, [[[] | "\e[36m"], [["10", 58, "23", 58, [48, "1"], 46, "236"], " ", [["request_id", 61, "5rl79su9iaeim78m2iork94dt0c6h0vh", 32]], "[", "debug", "] ", ["Processing by ", "HelloPhoenix.LogController", 46, "show", 47, 50, 10, "  Parameters: ", "%{\"id\" => \"2\"}", 10, "  Pipelines: ", "[:browser]"], "\n"] | "\e[0m"])
+    (logger) lib/logger/backends/console.ex:29: Logger.Backends.Console.handle_event/2
+    (elixir) lib/gen_event.ex:1093: GenEvent.do_handler/3
+    (elixir) lib/gen_event.ex:934: GenEvent.server_update/5
+    (elixir) lib/gen_event.ex:919: GenEvent.server_notify/7
+    (elixir) lib/gen_event.ex:892: GenEvent.server_event/4
+    (elixir) lib/gen_event.ex:681: GenEvent.handle_msg/5
+    (stdlib) proc_lib.erl:240: :proc_lib.init_p_do_apply/3
+Last message: {:debug, #PID<0.204.0>, {Logger, ["Processing by ", "HelloPhoenix.LogController", 46, "show", 47, 50, 10, "  Parameters: ", "%{\"id\" => \"2\"}", 10, "  Pipelines: ", "[:browser]"], {{2015, 10, 7}, {10, 23, 1, 236}}, [pid: #PID<0.466.0>, application: :phoenix, module: Phoenix.Controller.Logger, function: "call/2", line: 34, request_id: "5rl79su9iaeim78m2iork94dt0c6h0vh"]}}
+State: %{colors: %{debug: :cyan, enabled: true, error: :red, info: :normal, warn: :yellow}, device: :user, format: [:time, " ", :metadata, "[", :level, "] ", :message, "\n"], level: nil, metadata: [:request_id]}
+10:23:01.244 [error] GenServer #PID<0.180.0> terminating
+** (ArgumentError) argument error
+    (stdlib) :io.put_chars(:user, :unicode, [[[] | "\e[36m"], [["10", 58, "23", 58, [48, "1"], 46, "236"], " ", [["request_id", 61, "5rl79su9iaeim78m2iork94dt0c6h0vh", 32]], "[", "debug", "] ", ["Processing by ", "HelloPhoenix.LogController", 46, "show", 47, 50, 10, "  Parameters: ", "%{\"id\" => \"2\"}", 10, "  Pipelines: ", "[:browser]"], "\n"] | "\e[0m"])
+    (logger) lib/logger/backends/console.ex:29: Logger.Backends.Console.handle_event/2
+    (elixir) lib/gen_event.ex:1093: GenEvent.do_handler/3
+    (elixir) lib/gen_event.ex:934: GenEvent.server_update/5
+    (elixir) lib/gen_event.ex:919: GenEvent.server_notify/7
+    (elixir) lib/gen_event.ex:892: GenEvent.server_event/4
+    (elixir) lib/gen_event.ex:681: GenEvent.handle_msg/5
+    (stdlib) proc_lib.erl:240: :proc_lib.init_p_do_apply/3
+Last message: {:gen_event_EXIT, Logger.Backends.Console, {:badarg, [{:io, :put_chars, [:user, :unicode, [[[] | "\e[36m"], [["10", 58, "23", 58, [48, "1"], 46, "236"], " ", [["request_id", 61, "5rl79su9iaeim78m2iork94dt0c6h0vh", 32]], "[", "debug", "] ", ["Processing by ", "HelloPhoenix.LogController", 46, "show", 47, 50, 10, "  Parameters: ", "%{\"id\" => \"2\"}", 10, "  Pipelines: ", "[:browser]"], "\n"] | "\e[0m"]], []}, {Logger.Backends.Console, :handle_event, 2, [file: 'lib/logger/backends/console.ex', line: 29]}, {GenEvent, :do_handler, 3, [file: 'lib/gen_event.ex', line: 1093]}, {GenEvent, :server_update, 5, [file: 'lib/gen_event.ex', line: 934]}, {GenEvent, :server_notify, 7, [file: 'lib/gen_event.ex', line: 919]}, {GenEvent, :server_event, 4, [file: 'lib/gen_event.ex', line: 892]}, {GenEvent, :handle_msg, 5, [file: 'lib/gen_event.ex', line: 681]}, {:proc_lib, :init_p_do_apply, 3, [file: 'proc_lib.erl', line: 240]}]}}
+State: {Logger, Logger.Backends.Console, #Reference<0.0.4.2601>}
+10:27:09.901 [error] Running HelloPhoenix.Endpoint with Cowboy on http://localhost:4000 failed, port already in use
+10:34:02.941 [error] Running HelloPhoenix.Endpoint with Cowboy on http://localhost:4000 failed, port already in use
+10:37:11.703 [error] #PID<0.333.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (ArgumentError) model HelloPhoenix.Log does not have association :activities
+        (ecto) lib/ecto/association.ex:113: Ecto.Association.association_from_model!/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:37:39.554 [error] #PID<0.358.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :activitiy not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activity: %HelloPhoenix.LogActivity{__meta__: #Ecto.Schema.Metadata<:loaded>, activity: #Ecto.Association.NotLoaded<association :activity is not loaded>, activity_id: 1, id: 2, inserted_at: #Ecto.DateTime<2015-10-06T17:20:55Z>, log: #Ecto.Association.NotLoaded<association :log is not loaded>, log_id: 2, updated_at: #Ecto.DateTime<2015-10-06T17:20:58Z>}, amount: 1, id: 2, inserted_at: #Ecto.DateTime<2015-10-06T06:39:13Z>, updated_at: #Ecto.DateTime<2015-10-06T06:39:13Z>, user: #Ecto.Association.NotLoaded<association :user is not loaded>, user_id: nil}
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:37:46.250 [error] #PID<0.373.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :name not found in: %HelloPhoenix.LogActivity{__meta__: #Ecto.Schema.Metadata<:loaded>, activity: #Ecto.Association.NotLoaded<association :activity is not loaded>, activity_id: 1, id: 2, inserted_at: #Ecto.DateTime<2015-10-06T17:20:55Z>, log: #Ecto.Association.NotLoaded<association :log is not loaded>, log_id: 2, updated_at: #Ecto.DateTime<2015-10-06T17:20:58Z>}
+        (hello_phoenix) web/templates/log/show.html.eex:7: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:38:38.063 [error] #PID<0.388.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (Ecto.QueryError) deps/ecto/lib/ecto/association.ex:336: field `HelloPhoenix.Activity.log_id` in `where` does not exist in the model source in query:
+
+from a in HelloPhoenix.Activity,
+  where: a.log_id in ^[2]
+
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1102: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+        (ecto) lib/ecto/repo/queryable.ex:91: Ecto.Repo.Queryable.execute/5
+        (ecto) lib/ecto/repo/queryable.ex:15: Ecto.Repo.Queryable.all/4
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+10:39:33.482 [error] #PID<0.466.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :user_id not found in: #Ecto.Association.NotLoaded<association :user is not loaded>
+        (hello_phoenix) web/templates/log/show.html.eex:17: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:39:39.135 [error] #PID<0.481.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :name not found in: #Ecto.Association.NotLoaded<association :user is not loaded>
+        (hello_phoenix) web/templates/log/show.html.eex:17: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:39:57.627 [error] #PID<0.496.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :activity.__struct__/0 (module :activity is not available)
+        :activity.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:40:03.816 [error] #PID<0.511.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :name not found in: #Ecto.Association.NotLoaded<association :user is not loaded>
+        (hello_phoenix) web/templates/log/show.html.eex:17: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:40:17.094 [error] #PID<0.526.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :activity.__struct__/0 (module :activity is not available)
+        :activity.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:40:20.066 [error] #PID<0.538.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :activity.__struct__/0 (module :activity is not available)
+        :activity.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:40:33.015 [error] #PID<0.546.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:40:49.447 [error] #PID<0.561.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:40:50.811 [error] #PID<0.564.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:40:54.646 [error] #PID<0.333.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:40:55.765 [error] #PID<0.340.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:42:32.026 [error] #PID<0.356.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:46:27.131 [error] #PID<0.487.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:46:43.623 [error] #PID<0.493.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :name not found in: #Ecto.Association.NotLoaded<association :user is not loaded>
+        (hello_phoenix) web/templates/log/show.html.eex:17: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:46:54.524 [error] #PID<0.509.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :email not found in: #Ecto.Association.NotLoaded<association :user is not loaded>
+        (hello_phoenix) web/templates/log/show.html.eex:17: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:46:55.728 [error] #PID<0.521.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (KeyError) key :email not found in: #Ecto.Association.NotLoaded<association :user is not loaded>
+        (hello_phoenix) web/templates/log/show.html.eex:17: HelloPhoenix.LogView."show.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:47:02.842 [error] #PID<0.529.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:47:11.074 [error] #PID<0.544.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:47:11.100 [error] #PID<0.552.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:47:12.413 [error] #PID<0.559.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:48:57.296 [error] #PID<0.577.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:55:13.282 [error] #PID<0.589.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+10:58:25.643 [error] #PID<0.619.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+11:04:28.649 [error] #PID<0.664.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+11:05:33.972 [error] #PID<0.674.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+11:10:17.883 [error] #PID<0.684.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs/2
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: :user.__struct__/0
+        (kernel) :user.__struct__()
+        (hello_phoenix) web/controllers/log_controller.ex:32: HelloPhoenix.LogController.show/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+11:29:48.809 [error] #PID<0.885.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (ArgumentError) model HelloPhoenix.Log does not have association :activities
+        (ecto) lib/ecto/association.ex:113: Ecto.Association.association_from_model!/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/controllers/log_controller.ex:9: HelloPhoenix.LogController.index/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+11:30:23.244 [error] #PID<0.906.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: nil.name/0
+        nil.name()
+        (hello_phoenix) web/templates/log/index.html.eex:16: anonymous fn/3 in HelloPhoenix.LogView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/log/index.html.eex:14: HelloPhoenix.LogView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+11:33:45.342 [error] #PID<0.923.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: nil.name/0
+        nil.name()
+        (hello_phoenix) web/templates/log/index.html.eex:16: anonymous fn/3 in HelloPhoenix.LogView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/log/index.html.eex:14: HelloPhoenix.LogView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+11:37:22.201 [error] #PID<0.970.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /logs
+** (exit) an exception was raised:
+    ** (KeyError) key :created_at not found in: %HelloPhoenix.Log{__meta__: #Ecto.Schema.Metadata<:loaded>, activity: %HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, id: 2, inserted_at: #Ecto.DateTime<2015-10-06T02:55:49Z>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Stairs", points: 2, updated_at: #Ecto.DateTime<2015-10-06T02:55:49Z>}, activity_id: 2, amount: 1, id: 1, inserted_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, updated_at: #Ecto.DateTime<2015-10-06T05:15:13Z>, user: %HelloPhoenix.User{__meta__: #Ecto.Schema.Metadata<:loaded>, crypted_password: "$2b$12$XTw9BJtG3m1KLN8RR7eXxeAjylA9m5Ar2WAt7rXpziKFsFIDvr0uW", email: "hiddentiger@gmail.com", id: 1, inserted_at: #Ecto.DateTime<2015-10-05T23:24:36Z>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, password: nil, updated_at: #Ecto.DateTime<2015-10-05T23:24:36Z>}, user_id: 1}
+        (hello_phoenix) web/templates/log/index.html.eex:19: anonymous fn/3 in HelloPhoenix.LogView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/log/index.html.eex:14: HelloPhoenix.LogView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.action/2
+        (hello_phoenix) web/controllers/log_controller.ex:1: HelloPhoenix.LogController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+12:20:16.895 [error] #PID<0.1080.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /activities
+** (exit) an exception was raised:
+    ** (KeyError) key :event_id not found in: %HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}
+        (hello_phoenix) web/templates/activity/index.html.eex:18: anonymous fn/3 in HelloPhoenix.ActivityView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/activity/index.html.eex:14: HelloPhoenix.ActivityView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/activity_controller.ex:1: HelloPhoenix.ActivityController.action/2
+        (hello_phoenix) web/controllers/activity_controller.ex:1: HelloPhoenix.ActivityController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+12:20:17.591 [error] #PID<0.1083.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /activities
+** (exit) an exception was raised:
+    ** (KeyError) key :event_id not found in: %HelloPhoenix.Activity{__meta__: #Ecto.Schema.Metadata<:loaded>, event: #Ecto.Association.NotLoaded<association :event is not loaded>, id: 1, inserted_at: #Ecto.DateTime<2015-10-05T09:50:05Z>, logs: #Ecto.Association.NotLoaded<association :logs is not loaded>, name: "Run", points: 3, updated_at: #Ecto.DateTime<2015-10-05T09:50:05Z>}
+        (hello_phoenix) web/templates/activity/index.html.eex:18: anonymous fn/3 in HelloPhoenix.ActivityView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/activity/index.html.eex:14: HelloPhoenix.ActivityView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/activity_controller.ex:1: HelloPhoenix.ActivityController.action/2
+        (hello_phoenix) web/controllers/activity_controller.ex:1: HelloPhoenix.ActivityController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+12:20:57.200 [error] #PID<0.1093.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /activities
+** (exit) an exception was raised:
+    ** (KeyError) key :name not found in: #Ecto.Association.NotLoaded<association :event is not loaded>
+        (hello_phoenix) web/templates/activity/index.html.eex:18: anonymous fn/3 in HelloPhoenix.ActivityView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/activity/index.html.eex:14: HelloPhoenix.ActivityView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/activity_controller.ex:1: HelloPhoenix.ActivityController.action/2
+        (hello_phoenix) web/controllers/activity_controller.ex:1: HelloPhoenix.ActivityController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+12:20:57.566 [error] #PID<0.1105.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /activities
+** (exit) an exception was raised:
+    ** (KeyError) key :name not found in: #Ecto.Association.NotLoaded<association :event is not loaded>
+        (hello_phoenix) web/templates/activity/index.html.eex:18: anonymous fn/3 in HelloPhoenix.ActivityView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/activity/index.html.eex:14: HelloPhoenix.ActivityView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/activity_controller.ex:1: HelloPhoenix.ActivityController.action/2
+        (hello_phoenix) web/controllers/activity_controller.ex:1: HelloPhoenix.ActivityController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4
+12:21:42.825 [error] #PID<0.1112.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /activities
+** (exit) an exception was raised:
+    ** (Ecto.QueryError) deps/ecto/lib/ecto/association.ex:336: field `HelloPhoenix.Event.activity_id` in `where` does not exist in the model source in query:
+
+from e in HelloPhoenix.Event,
+  where: e.activity_id in ^[1, 2]
+
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1102: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+        (ecto) lib/ecto/repo/queryable.ex:91: Ecto.Repo.Queryable.execute/5
+        (ecto) lib/ecto/repo/queryable.ex:15: Ecto.Repo.Queryable.all/4
+        (elixir) lib/enum.ex:1043: anonymous fn/3 in Enum.map/2
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (elixir) lib/enum.ex:1043: Enum.map/2
+12:22:07.253 [error] #PID<0.1127.0> running HelloPhoenix.Endpoint terminated
+Server: localhost:4000 (http)
+Request: GET /activities
+** (exit) an exception was raised:
+    ** (UndefinedFunctionError) undefined function: nil.name/0
+        nil.name()
+        (hello_phoenix) web/templates/activity/index.html.eex:18: anonymous fn/3 in HelloPhoenix.ActivityView.index.html/1
+        (elixir) lib/enum.ex:1387: Enum."-reduce/3-lists^foldl/2-0-"/3
+        (hello_phoenix) web/templates/activity/index.html.eex:14: HelloPhoenix.ActivityView."index.html"/1
+        (phoenix) lib/phoenix/view.ex:197: Phoenix.View.render_within/3
+        (phoenix) lib/phoenix/view.ex:341: Phoenix.View.render_to_iodata/3
+        (phoenix) lib/phoenix/controller.ex:628: Phoenix.Controller.do_render/4
+        (hello_phoenix) web/controllers/activity_controller.ex:1: HelloPhoenix.ActivityController.action/2
+        (hello_phoenix) web/controllers/activity_controller.ex:1: HelloPhoenix.ActivityController.phoenix_controller_pipeline/2
+        (hello_phoenix) lib/phoenix/router.ex:255: HelloPhoenix.Router.dispatch/2
+        (hello_phoenix) web/router.ex:1: HelloPhoenix.Router.do_call/2
+        (hello_phoenix) lib/hello_phoenix/endpoint.ex:1: HelloPhoenix.Endpoint.phoenix_pipeline/1
+        (hello_phoenix) lib/plug/debugger.ex:90: HelloPhoenix.Endpoint."call (overridable 3)"/2
+        (hello_phoenix) lib/phoenix/endpoint/render_errors.ex:34: HelloPhoenix.Endpoint.call/2
+        (plug) lib/plug/adapters/cowboy/handler.ex:15: Plug.Adapters.Cowboy.Handler.upgrade/4
+        (cowboy) src/cowboy_protocol.erl:442: :cowboy_protocol.execute/4

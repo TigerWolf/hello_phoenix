@@ -4,11 +4,9 @@ defmodule HelloPhoenix.Activity do
   schema "activities" do
     field :name, :string
     field :points, :integer
-    field :event_id, :integer
 
-    has_one :event, HelloPhoenix.Event
-    has_many :log_activities, HelloPhoenix.LogActivity
-    has_many :logs, through: [:log_activities, :log]
+    belongs_to :event, HelloPhoenix.Event
+    has_many :logs, HelloPhoenix.LogActivity #through: [:log_activities, :log]
     timestamps
   end
 

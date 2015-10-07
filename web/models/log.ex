@@ -3,8 +3,7 @@ defmodule HelloPhoenix.Log do
 
   schema "logs" do
     field :amount, :integer
-    has_many :log_activities, HelloPhoenix.LogActivity
-    has_many :activities, through: [:log_activities, :activity]
+    belongs_to :activity, HelloPhoenix.Activity
     belongs_to :user, HelloPhoenix.User
 
     timestamps

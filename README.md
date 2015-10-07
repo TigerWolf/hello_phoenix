@@ -20,10 +20,12 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
 
 # TODO
 
-  * Unique email for register
   * Relationships for models
   * Basic auth for api (partial - use user model auth)
   * Many-to-many for team to user
+  * Make dates better formatted with https://github.com/lau/calecto
+  * Limit users to only be able to edit their own data
+  * Add API for teams and logs
 
   +----------+       +----------+        +----------+
   | event    +-------+ team     +--------+ user     |

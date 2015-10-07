@@ -6,7 +6,7 @@ defmodule HelloPhoenix.ActivityController do
   plug :scrub_params, "activity" when action in [:create, :update]
 
   def index(conn, _params) do
-    activities = Repo.all(Activity)
+    activities = Repo.all(Activity) |> Repo.preload ([:event])
     render(conn, "index.html", activities: activities)
   end
 

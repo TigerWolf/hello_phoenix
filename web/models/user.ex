@@ -7,6 +7,8 @@ defmodule HelloPhoenix.User do
     field :crypted_password, :string
 
     timestamps
+
+    has_many :logs, HelloPhoenix.User
   end
 
   @required_fields ~w(email password)

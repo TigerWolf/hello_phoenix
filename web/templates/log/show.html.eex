@@ -4,7 +4,7 @@
 
   <li>
     <strong>Activity:</strong>
-    <%= @log.activities.name %>
+    <%= @log.activity.name %>
   </li>
 
   <li>
@@ -14,7 +14,7 @@
 
   <li>
     <strong>User:</strong>
-    <%= @log.user_id %>
+    <%= @log.user.email %>
   </li>
 
 </ul>

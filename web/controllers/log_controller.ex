@@ -6,12 +6,12 @@ defmodule HelloPhoenix.LogController do
   plug :scrub_params, "log" when action in [:create, :update]
 
   def index(conn, _params) do
-    logs = Repo.all(Log) |> Repo.preload [:activities]
+    logs = Repo.all(Log) |> Repo.preload ([:activity, :user])
     render(conn, "index.html", logs: logs)
   end
 
   def new(conn, _params) do
-    changeset = Log.changeset(%Log{} |> Repo.preload [:activities] |> Repo.preload [:log_activities] )  #
+    changeset = Log.changeset(%Log{} |> Repo.preload ([:activity, :user]))
     render(conn, "new.html", changeset: changeset)
   end
 
@@ -29,7 +29,7 @@ defmodule HelloPhoenix.LogController do
   end
 
   def show(conn, %{"id" => id}) do
-    log = Repo.get!(Log, id)  |> Repo.preload [:activities]
+    log = Repo.get!(Log, id) |> Repo.preload [:activity, :user]
     render(conn, "show.html", log: log)
   end
 

@@ -6,16 +6,16 @@
       <th>Activity</th>
       <th>Amount</th>
       <th>User</th>
-
-      <th></th>
+      <th>Posted</th>
     </tr>
   </thead>
   <tbody>
 <%= for log <- @logs do %>
     <tr>
-      <td></td>
+      <td><%= log.activity.name %></td>
       <td><%= log.amount %></td>
-      <td><%= log.user_id %></td>
+      <td><%= log.user.email %></td>
+      <td><%= log.inserted_at %></td>
 
       <td class="text-right">
         <%= link "Show", to: log_path(@conn, :show, log), class: "btn btn-default btn-xs" %>

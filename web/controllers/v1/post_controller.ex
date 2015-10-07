@@ -3,7 +3,7 @@ defmodule HelloPhoenix.V1.PostController do
 
   alias HelloPhoenix.Post
 
-  plug PlugBasicAuth, username: "Wayne", password: "Knight"
+  plug PlugBasicAuth, username: "test", password: "user"
 
   plug :scrub_params, "post" when action in [:create, :update]
 
