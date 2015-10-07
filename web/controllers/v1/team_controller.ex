@@ -1,4 +1,4 @@
-defmodule HelloPhoenix.TeamController do
+defmodule HelloPhoenix.V1.TeamController do
   use HelloPhoenix.Web, :controller
 
   alias HelloPhoenix.Team
