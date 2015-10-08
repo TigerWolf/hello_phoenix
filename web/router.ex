@@ -39,6 +39,7 @@ defmodule HelloPhoenix.Router do
       resources "/posts", PostController
       resources "/teams", TeamController
       resources "/activities", ActivityController
+      resources "/logs", LogController
     end
   end
 end
