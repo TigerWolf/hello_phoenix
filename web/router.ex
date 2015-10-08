@@ -38,6 +38,7 @@ defmodule HelloPhoenix.Router do
     scope "/v1", V1, as: :v1 do
       resources "/posts", PostController
       resources "/teams", TeamController
+      resources "/activities", ActivityController
     end
   end
 end

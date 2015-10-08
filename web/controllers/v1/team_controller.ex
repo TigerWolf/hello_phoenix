@@ -3,7 +3,7 @@ defmodule HelloPhoenix.V1.TeamController do
 
   alias HelloPhoenix.Team
 
-  plug PlugBasicAuth, username: "test", password: "user"
+  plug HelloPhoenix.Plugs.Authenticated
 
   plug :scrub_params, "team" when action in [:create, :update]
 
