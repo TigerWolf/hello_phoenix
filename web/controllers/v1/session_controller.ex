@@ -8,6 +8,5 @@ defmodule HelloPhoenix.V1.SessionController do
   def create(conn, _params) do
     render(conn, "index.json")
   end
-
-
+  
 end
