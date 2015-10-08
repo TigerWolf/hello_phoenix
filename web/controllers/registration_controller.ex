@@ -13,7 +13,7 @@ defmodule HelloPhoenix.RegistrationController do
     if changeset.valid? do
       user = HelloPhoenix.Registration.create(changeset, HelloPhoenix.Repo)
       conn
-      |> put_flash(:info, "Your account way created")
+      |> put_flash(:info, "Your account was created")
       |> redirect(to: "/")
     else
       conn
