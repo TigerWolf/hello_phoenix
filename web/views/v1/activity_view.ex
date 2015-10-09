@@ -12,7 +12,8 @@ defmodule HelloPhoenix.V1.ActivityView do
   def render("activity.json", %{activity: activity}) do
     %{
       id: activity.id,
-      title: activity.name
+      title: activity.name,
+      event_id: activity.event.id
     }
   end
 

@@ -9,7 +9,7 @@ defmodule HelloPhoenix.Log do
     timestamps
   end
 
-  @required_fields ~w(amount)
+  @required_fields ~w(amount activity_id user_id)
   @optional_fields ~w()
 
   @doc """

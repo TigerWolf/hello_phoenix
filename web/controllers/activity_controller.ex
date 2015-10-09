@@ -16,7 +16,7 @@ defmodule HelloPhoenix.ActivityController do
   end
 
   def create(conn, %{"activity" => activity_params}) do
-    changeset = Activity.changeset(%Activity{}, activity_params)
+    changeset = Activity.changeset(%Activity{}, activity_params) |> Repo.preload([:event])
 
     case Repo.insert(changeset) do
       {:ok, _activity} ->

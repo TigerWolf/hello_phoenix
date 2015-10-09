@@ -8,7 +8,7 @@ defmodule HelloPhoenix.V1.ActivityController do
   plug :scrub_params, "activities" when action in [:create, :update]
 
   def index(conn, _params) do
-    activities = Repo.all(Activity)
+    activities = Repo.all(Activity) |> Repo.preload([:event])
     render(conn, "index.json", activities: activities)
   end
 
