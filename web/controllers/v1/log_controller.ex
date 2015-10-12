@@ -7,6 +7,8 @@ defmodule HelloPhoenix.V1.LogController do
 
   plug :scrub_params, "log" when action in [:create, :update]
 
+  import Logger
+
   def index(conn, _params) do
     logs = Repo.all(Log)
     render(conn, "index.json", logs: logs)
@@ -18,6 +20,8 @@ defmodule HelloPhoenix.V1.LogController do
   end
 
   def create(conn, %{"log" => log_params}) do
+    log_params = %{log_params | "user_id" => conn.assigns.user_id}
+
     changeset = Log.changeset(%Log{}, log_params)
 
     case Repo.insert(changeset) do
