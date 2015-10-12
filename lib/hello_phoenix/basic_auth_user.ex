@@ -32,12 +32,16 @@ defmodule HelloPhoenix.Plugs.Authenticated do
       end
   """
 
+
+
   import Logger
 
   import Plug.Conn, only: [get_req_header:  2,
                            put_resp_header: 3,
                            send_resp:       3,
-                           halt:            1]
+                           halt:            1,
+                           assign:          3
+                          ]
 
   def init(opts) do
   end
@@ -73,6 +77,7 @@ defmodule HelloPhoenix.Plugs.Authenticated do
     case HelloPhoenix.Session.login(params, HelloPhoenix.Repo) do
       {:ok, user} ->
         conn
+        |> assign(:user_id, user.id)
       :error ->
         respond_with_login(conn)
     end
