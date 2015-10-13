@@ -10,12 +10,17 @@ defmodule HelloPhoenix.V1.LogController do
   import Logger
 
   def index(conn, _params) do
-    logs = Repo.all(Log)
+    user_id = conn.assigns.user_id
+    logs = Repo.all(
+      from l in Log,
+        where: l.user_id == ^user_id,
+        select: l
+    ) |> Repo.preload([:activity])
     render(conn, "index.json", logs: logs)
   end
 
   def show(conn, %{"id" => id}) do
-    log = Repo.get!(Log, id)
+    log = Repo.get!(Log, id) |> Repo.preload([:activity])
     render conn, "show.json", log: log
   end
 
