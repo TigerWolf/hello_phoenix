@@ -20,7 +20,7 @@ config :hello_phoenix, HelloPhoenix.Endpoint,
 # config :logger, level: :info
 
 config :logger,
-  backends: [{LoggerFileBackend, :error_log, Rollbax.Notifier}]
+  backends: [{LoggerFileBackend, :error_log},Rollbax.Notifier]
 
 config :logger, :error_log,
   path: "log/error.log",
