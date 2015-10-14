@@ -20,12 +20,14 @@ config :hello_phoenix, HelloPhoenix.Endpoint,
 # config :logger, level: :info
 
 config :logger,
-  backends: [{LoggerFileBackend, :error_log}]
+  backends: [{LoggerFileBackend, :error_log, Rollbax.Notifier}]
 
 config :logger, :error_log,
   path: "log/error.log",
   level: :error
 
+config :logger, Rollbax.Notifier
+  level: :error
 # ## SSL Support
 #
 # To get SSL working, you will need to add the `https` key

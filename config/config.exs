@@ -32,3 +32,7 @@ config :phoenix, :generators,
 if System.get_env("SERVER") do
   config :phoenix, :serve_endpoints, true
 end
+
+config :rollbax,
+  access_token: "389ed0b5c7c44b83b1550fcc1ce28f1a",
+  environment: "production"
