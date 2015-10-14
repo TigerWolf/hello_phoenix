@@ -12,9 +12,10 @@ defmodule HelloPhoenix.V1.LogView do
   def render("log.json", %{log: log}) do
     %{
       id: log.id,
-      title: log.amount,
+      amount: log.amount,
       inserted_at: log.inserted_at,
-      activity_id: log.activity_id
+      activity_id: log.activity_id,
+      # activity_name: log.activity.name
     }
   end
 
