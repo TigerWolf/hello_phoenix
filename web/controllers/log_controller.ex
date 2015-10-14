@@ -16,6 +16,7 @@ defmodule HelloPhoenix.LogController do
   end
 
   def create(conn, %{"log" => log_params}) do
+    log_params = Map.put(log_params, "user_id", HelloPhoenix.Session.current_user(conn).id)
     changeset = Log.changeset(%Log{}, log_params)
 
     case Repo.insert(changeset) do
