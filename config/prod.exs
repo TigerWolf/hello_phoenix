@@ -26,8 +26,9 @@ config :logger, :error_log,
   path: "log/error.log",
   level: :error
 
-config :logger, Rollbax.Notifier
+config :logger, Rollbax.Notifier,
   level: :error
+
 # ## SSL Support
 #
 # To get SSL working, you will need to add the `https` key
