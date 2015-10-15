@@ -42,6 +42,7 @@ defmodule HelloPhoenix.Router do
       resources "/activities", ActivityController
       resources "/logs", LogController
       get       "/login",  SessionController, :create
+      post      "/register", RegistrationController, :create
     end
   end
 end
