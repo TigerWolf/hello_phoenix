@@ -24,6 +24,7 @@ defmodule HelloPhoenix.User do
     model
     |> cast(params, @required_fields, @optional_fields)
     |> update_change(:email, &String.downcase/1)
+    |> unique_constraint(:email)
     # |> validate_unique(:email, on: Repo) # not sure why function does not exist
     |> validate_format(:email, ~r/@/)
     |> validate_length(:password, min: 5)
