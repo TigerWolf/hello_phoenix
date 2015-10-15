@@ -3,8 +3,8 @@ defmodule HelloPhoenix.Repo.Migrations.CreateUser do
 
   def change do
     create table(:users) do
-      add :email, :string
-      add :crypted_password, :string, unique: true
+      add :email, :string, unique: true
+      add :crypted_password, :string
       timestamps
     end
 
