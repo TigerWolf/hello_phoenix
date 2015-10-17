@@ -24,6 +24,7 @@ defmodule HelloPhoenix.Router do
     resources "/teams", TeamController
     resources "/logs", LogController
     get       "/summary", SummaryController, :index
+    get       "/summary/csv", SummaryController, :csv
 
     get    "/register", RegistrationController, :new
     post   "/register", RegistrationController, :create

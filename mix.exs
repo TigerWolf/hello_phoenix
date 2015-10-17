@@ -39,7 +39,8 @@ defmodule HelloPhoenix.Mixfile do
      {:comeonin, "~> 1.0"},
      {:plug_basic_auth, "~> 1.0"},
      {:logger_file_backend, "0.0.4"},
-     {:rollbax, "~> 0.5"}
+     {:rollbax, "~> 0.5"},
+     {:csvlixir, "~> 2.0"}
    ]
   end
 end
