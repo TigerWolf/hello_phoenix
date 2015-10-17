@@ -9,15 +9,22 @@ defmodule HelloPhoenix.RegistrationController do
 
   def create(conn, %{"user" => user_params}) do
     changeset = User.changeset(%User{}, user_params)
-    case HelloPhoenix.Repo.insert changeset do
-      {:ok, changeset} ->
-        conn
-        |> put_flash(:info, "Your account was created")
-        |> redirect(to: "/")
-      {:error, changeset} ->
-        conn
-        |> put_flash(:info, "Unable to create account")
-        |> render("new.html", changeset: changeset)
+
+    if changeset.valid? do
+      case HelloPhoenix.Registration.create(changeset, HelloPhoenix.Repo) do
+        {:ok, changeset} ->
+          conn
+          |> put_flash(:info, "Your account was created")
+          |> redirect(to: "/")
+        {:error, changeset} ->
+          conn
+          |> put_flash(:info, "Unable to create account")
+          |> render("new.html", changeset: changeset)
+      end
+    else
+      conn
+      |> put_flash(:info, "Unable to create account")
+      |> render("new.html", changeset: changeset)
     end
   end
 end

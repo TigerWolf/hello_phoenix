@@ -5,13 +5,15 @@ defmodule HelloPhoenix.User do
     field :email, :string
     field :password, :string, virtual: true
     field :crypted_password, :string
+    field :captain_preference, :boolean
+    field :name, :string
 
     timestamps
 
     has_many :logs, HelloPhoenix.User
   end
 
-  @required_fields ~w(email password)
+  @required_fields ~w(email captain_preference name)
   @optional_fields ~w()
 
   @doc """
@@ -25,8 +27,8 @@ defmodule HelloPhoenix.User do
     |> cast(params, @required_fields, @optional_fields)
     |> update_change(:email, &String.downcase/1)
     |> unique_constraint(:email)
-    # |> validate_unique(:email, on: Repo) # not sure why function does not exist
     |> validate_format(:email, ~r/@/)
     |> validate_length(:password, min: 5)
+    |> validate_confirmation(:password, message: "passwords do not match")
   end
 end

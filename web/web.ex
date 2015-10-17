@@ -32,6 +32,8 @@ defmodule HelloPhoenix.Web do
       import Ecto.Query, only: [from: 1, from: 2]
 
       import HelloPhoenix.Router.Helpers
+
+      import HelloPhoenix.Session, only: [current_user: 1, logged_in?: 1]
     end
   end
 
