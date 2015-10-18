@@ -1,10 +1,9 @@
 defmodule HelloPhoenix.ActivityController do
   use HelloPhoenix.Web, :controller
 
-  plug HelloPhoenix.Plugs.AdminProtection
-
   alias HelloPhoenix.Activity
 
+  plug HelloPhoenix.Plugs.AdminProtection
   plug :scrub_params, "activity" when action in [:create, :update]
 
   def index(conn, _params) do

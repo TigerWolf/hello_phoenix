@@ -17,7 +17,7 @@ defmodule HelloPhoenix.Plugs.AdminProtection do
     case HelloPhoenix.Session.admin?(conn) do
       true ->
         conn
-      false ->
+      _ ->
         conn
         |> put_status(401)
         |> render(HelloPhoenix.ErrorView, "401.html")
