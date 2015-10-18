@@ -20,11 +20,14 @@ defmodule HelloPhoenix.LogController do
     render(conn, "index.html", logs: logs)
   end
 
-  def new(conn, _params) do
+  def activities do
     activities = Repo.all(Activity)
       |> Enum.map( fn(activity) ->
       { activity.name, activity.id}
     end)
+  end
+
+  def new(conn, _params) do
     changeset = Log.changeset(%Log{} |> Repo.preload ([:activity, :user]))
     render(conn, "new.html", changeset: changeset, activities: activities)
   end
@@ -40,7 +43,7 @@ defmodule HelloPhoenix.LogController do
         |> put_flash(:info, "Log created successfully.")
         |> redirect(to: log_path(conn, :index))
       {:error, changeset} ->
-        render(conn, "new.html", changeset: changeset)
+        render(conn, "new.html", changeset: changeset, activities: activities)
     end
   end
 
@@ -50,10 +53,6 @@ defmodule HelloPhoenix.LogController do
   end
 
   def edit(conn, %{"id" => id}) do
-    activities = Repo.all(Activity)
-      |> Enum.map( fn(activity) ->
-      { activity.name, activity.id}
-    end)
     log = Repo.get!(Log, id)
     changeset = Log.changeset(log)
     render(conn, "edit.html", log: log, changeset: changeset, activities: activities)
@@ -72,16 +71,18 @@ defmodule HelloPhoenix.LogController do
         |> put_flash(:info, "Log updated successfully.")
         |> redirect(to: log_path(conn, :show, log))
       {:error, changeset} ->
-        render(conn, "edit.html", log: log, changeset: changeset)
+        render(conn, "edit.html", log: log, changeset: changeset, activities: activities)
     end
   end
 
   def delete(conn, %{"id" => id}) do
     log = Repo.get!(Log, id)
+    if log.user_id == HelloPhoenix.Session.current_user(conn).id do
 
-    # Here we use delete! (with a bang) because we expect
-    # it to always work (and if it does not, it will raise).
-    Repo.delete!(log)
+      # Here we use delete! (with a bang) because we expect
+      # it to always work (and if it does not, it will raise).
+      Repo.delete!(log)
+    end
 
     conn
     |> put_flash(:info, "Log deleted successfully.")
