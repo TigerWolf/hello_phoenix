@@ -7,7 +7,16 @@ defmodule HelloPhoenix.LogController do
   plug :scrub_params, "log" when action in [:create, :update]
 
   def index(conn, _params) do
-    logs = Repo.all(Log) |> Repo.preload ([:activity, :user])
+    if admin?(conn) do
+      logs = Repo.all(Log) |> Repo.preload ([:activity, :user])
+    else
+      user_id = current_user(conn).id
+      logs = Repo.all(
+        from l in Log,
+          where: l.user_id == ^user_id,
+          select: l
+      ) |> Repo.preload([:activity, :user])
+    end
     render(conn, "index.html", logs: logs)
   end
 
@@ -21,6 +30,7 @@ defmodule HelloPhoenix.LogController do
   end
 
   def create(conn, %{"log" => log_params}) do
+    #TODO: Ensure only users can edit their own logs but admins can edit all
     log_params = Map.put(log_params, "user_id", HelloPhoenix.Session.current_user(conn).id)
     changeset = Log.changeset(%Log{}, log_params)
 
@@ -50,6 +60,9 @@ defmodule HelloPhoenix.LogController do
   end
 
   def update(conn, %{"id" => id, "log" => log_params}) do
+    #TODO: Ensure only users can edit their own logs but admins can edit all
+    log_params = Map.put(log_params, "user_id", HelloPhoenix.Session.current_user(conn).id)
+
     log = Repo.get!(Log, id)
     changeset = Log.changeset(log, log_params)
 
