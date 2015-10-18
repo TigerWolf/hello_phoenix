@@ -40,9 +40,13 @@ defmodule HelloPhoenix.LogController do
   end
 
   def edit(conn, %{"id" => id}) do
+    activities = Repo.all(Activity)
+      |> Enum.map( fn(activity) ->
+      { activity.name, activity.id}
+    end)
     log = Repo.get!(Log, id)
     changeset = Log.changeset(log)
-    render(conn, "edit.html", log: log, changeset: changeset)
+    render(conn, "edit.html", log: log, changeset: changeset, activities: activities)
   end
 
   def update(conn, %{"id" => id, "log" => log_params}) do
