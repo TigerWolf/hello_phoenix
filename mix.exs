@@ -35,7 +35,7 @@ defmodule HelloPhoenix.Mixfile do
      {:phoenix_html, "~> 2.1"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:cowboy, "~> 1.0"},
-     {:exrm, "~> 0.18.1"},
+     {:exrm, "~> 0.19"},
      {:comeonin, "~> 1.0"},
      {:plug_basic_auth, "~> 1.0"},
      {:logger_file_backend, "0.0.4"},
