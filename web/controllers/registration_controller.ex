@@ -8,6 +8,7 @@ defmodule HelloPhoenix.RegistrationController do
   end
 
   def create(conn, %{"user" => user_params}) do
+    user_params = Map.put(user_params, "admin", false)
     changeset = User.changeset(%User{}, user_params)
 
     if changeset.valid? do
