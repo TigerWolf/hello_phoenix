@@ -1,12 +1,24 @@
 defmodule HelloPhoenix.ErrorView do
   use HelloPhoenix.Web, :view
 
+  # def render("404.html", _assigns) do
+  #   "Page not found"
+  # end
+
   def render("404.html", _assigns) do
-    "Page not found"
+    render("not-found.html", _assigns)
   end
 
+  # def render("500.html", _assigns) do
+  #   "Server internal error"
+  # end
+
   def render("500.html", _assigns) do
-    "Server internal error"
+    render("internal-error.html", _assigns)
+  end
+
+  def render("401.html", _assigns) do
+    render("not-authorised.html", _assigns)
   end
 
   # In case no render clause matches or no
