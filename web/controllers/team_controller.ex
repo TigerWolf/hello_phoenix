@@ -2,6 +2,7 @@ defmodule HelloPhoenix.TeamController do
   use HelloPhoenix.Web, :controller
 
   alias HelloPhoenix.Team
+  plug HelloPhoenix.Plugs.AdminProtection
 
   plug :scrub_params, "team" when action in [:create, :update]
 

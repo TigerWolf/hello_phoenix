@@ -2,6 +2,7 @@ defmodule HelloPhoenix.UserController do
   use HelloPhoenix.Web, :controller
 
   alias HelloPhoenix.User
+  plug HelloPhoenix.Plugs.AdminProtection
 
   plug :scrub_params, "user" when action in [:create, :update]
 

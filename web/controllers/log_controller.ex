@@ -2,6 +2,7 @@ defmodule HelloPhoenix.LogController do
   use HelloPhoenix.Web, :controller
 
   alias HelloPhoenix.Log
+  alias HelloPhoenix.Activity
 
   plug :scrub_params, "log" when action in [:create, :update]
 

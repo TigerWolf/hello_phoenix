@@ -7,6 +7,7 @@ defmodule HelloPhoenix.User do
     field :crypted_password, :string
     field :captain_preference, :boolean
     field :name, :string
+    field :admin, :boolean
 
     timestamps
 

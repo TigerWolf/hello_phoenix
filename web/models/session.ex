@@ -22,4 +22,13 @@ defmodule HelloPhoenix.Session do
   end
 
   def logged_in?(conn), do: !!current_user(conn)
+
+  def admin?(conn) do
+    case current_user(conn) do
+      nil ->
+        false
+      _ ->
+        current_user(conn).admin
+      end
+  end
 end

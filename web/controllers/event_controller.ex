@@ -1,6 +1,8 @@
 defmodule HelloPhoenix.EventController do
   use HelloPhoenix.Web, :controller
 
+  plug HelloPhoenix.Plugs.AdminProtection
+
   alias HelloPhoenix.Event
 
   plug :scrub_params, "event" when action in [:create, :update]
