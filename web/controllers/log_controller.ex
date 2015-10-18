@@ -12,8 +12,12 @@ defmodule HelloPhoenix.LogController do
   end
 
   def new(conn, _params) do
+    activities = Repo.all(Activity)
+      |> Enum.map( fn(activity) ->
+      { activity.name, activity.id}
+    end)
     changeset = Log.changeset(%Log{} |> Repo.preload ([:activity, :user]))
-    render(conn, "new.html", changeset: changeset)
+    render(conn, "new.html", changeset: changeset, activities: activities)
   end
 
   def create(conn, %{"log" => log_params}) do

@@ -12,7 +12,7 @@
 
   <div class="form-group">
     <%= label f, :activity, "Activity", class: "control-label" %>
-    <%= select f, :activity_id, 1..2 %>
+    <%= select f, :activity_id, @activities %>
   </div>
 
   <div class="form-group">
