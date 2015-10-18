@@ -32,10 +32,6 @@ defmodule HelloPhoenix.Plugs.Authenticated do
       end
   """
 
-
-
-  import Logger
-
   import Plug.Conn, only: [get_req_header:  2,
                            put_resp_header: 3,
                            send_resp:       3,
@@ -47,7 +43,6 @@ defmodule HelloPhoenix.Plugs.Authenticated do
   end
 
   def call(conn, server_creds) do
-    # Logger.info server_creds
     conn
     |> get_auth_header
     |> parse_auth
