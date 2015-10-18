@@ -1,6 +1,8 @@
 <div class="jumbotron">
-  <h2>Welcome to Challenge Cup Club!</h2>
-  <p class="lead">To join in, <a href="/register">sign up</a>. You will be assigned a team after registration has been closed.</p>
+  <h2>Welcome to the Technology Services Fitness Challenge!</h2>
+  <p>
+  <p class="lead">To join in, <a href="/register">sign up</a>. Registrations will close COB Monday 26th of October.</p>
+  <p>Please nominate if you would like to be a team captain. Captains will lead and motivate their team through the course of the challenge. You will be assigned a team shortly after registration has been closed.</p>
   <p>If you have any problems using this website, please contact Rob or Kieran.</p>
   <p>Apps for iOS and Android will be avaliable shortly.</p>
 </div>
