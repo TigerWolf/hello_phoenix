@@ -14,7 +14,7 @@ defmodule HelloPhoenix.User do
     has_many :logs, HelloPhoenix.User
   end
 
-  @required_fields ~w(email captain_preference name )
+  @required_fields ~w(email captain_preference name)
   @optional_fields ~w(admin)
 
   @doc """
