@@ -18,7 +18,7 @@ defmodule HelloPhoenix.Mixfile do
   def application do
     [mod: {HelloPhoenix, []},
      applications: [:phoenix, :phoenix_html, :cowboy, :logger,
-                    :phoenix_ecto, :postgrex, :rollbax, :logger_file_backend, :comeonin]]
+                    :phoenix_ecto, :postgrex, :rollbax, :logger_file_backend, :comeonin, :csvlixir]]
   end
 
   # Specifies which paths to compile per environment
