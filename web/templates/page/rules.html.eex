@@ -1,7 +1,32 @@
 <div class="jumbotron">
   <h2>Rules</h2>
-  <p>
-  <p class="lead">Coming soon.</p>
+
+<p>The fitness challenge is about you logging your own exercises and adding them to your team scoresheet which will then calculate your team’s overall score. The logging is based completely on the honour system (you would only be cheating yourself out of fitness!) You can do the exercises at home, at work, or anywhere you like at any time of the day. </p>
+
+<p>There are 6 categories:</p>
+
+<p><strong>Pushup</strong><br>
+If you can’t do regular push-ups, you can do them on your knees. They still count!
+Each push-up is worth 1 point</p>
+<p><strong>Squats</strong><br>
+Body-weight squat. If you can’t do the regular version, you can do them against a wall
+Each squat is worth 1 point</p>
+
+<p><strong>Stairs</strong><br>
+In this category, you log how many floors of stairs you go UP (we are not counting down in this challenge). For example if you take the 9 Gawler place stairs to the top, you log 9 floors. If you can’t do all 9, just do a couple of floors and take the lift the rest of the way – you’ll still be getting points for your team
+Each floor is worth 5 points (thats 45 points just for taking the stairs each morning!)</p>
+
+<p><strong>Run (Km’s on foot - walking or running)</strong><br>
+This is not about counting your steps around the office, this is actually getting out and going for a walk or run (including treadmill). You enter your total number of Km’s, e.g. 3.6km. I suggest you use a smartphone app like Runkeeper to measure your distance.
+Each Km is worth 75 points!</p>
+
+<p><strong>Cycle (Km’s on bike)</strong><br>
+Enter the total number of Km’s you ride on your bike
+Each Km is worth 15 points</p>
+
+<p><strong>Other</strong><br>
+Did something that wasn’t listed? Don’t worry, it wasn’t for nothing. You can now log number of minutes spent doing any exercise that isn’t listed above.
+Each minute is worth 5 points</p>
 </div>
 
 <div class="row marketing">
