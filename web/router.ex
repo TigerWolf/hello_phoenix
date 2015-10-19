@@ -18,6 +18,8 @@ defmodule HelloPhoenix.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/rules", PageController, :rules
+
     resources "/activities", ActivityController
     resources "/users", UserController
     resources "/events", EventController
