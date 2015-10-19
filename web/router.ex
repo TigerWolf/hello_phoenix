@@ -38,7 +38,6 @@ defmodule HelloPhoenix.Router do
   scope "/api", HelloPhoenix do
     pipe_through :api
     scope "/v1", V1, as: :v1 do
-      resources "/posts", PostController
       resources "/teams", TeamController
       resources "/activities", ActivityController
       resources "/logs", LogController
