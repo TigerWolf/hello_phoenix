@@ -60,18 +60,23 @@ defmodule HelloPhoenix.LogController do
 
   def update(conn, %{"id" => id, "log" => log_params}) do
     #TODO: Ensure only users can edit their own logs but admins can edit all
-    log_params = Map.put(log_params, "user_id", HelloPhoenix.Session.current_user(conn).id)
+    # log_params = Map.put(log_params, "user_id", HelloPhoenix.Session.current_user(conn).id)
 
     log = Repo.get!(Log, id)
     changeset = Log.changeset(log, log_params)
-
-    case Repo.update(changeset) do
-      {:ok, log} ->
-        conn
-        |> put_flash(:info, "Log updated successfully.")
-        |> redirect(to: log_path(conn, :show, log))
-      {:error, changeset} ->
-        render(conn, "edit.html", log: log, changeset: changeset, activities: activities)
+    if admin?(conn) do
+      case Repo.update(changeset) do
+        {:ok, log} ->
+          conn
+          |> put_flash(:info, "Log updated successfully.")
+          |> redirect(to: log_path(conn, :show, log))
+        {:error, changeset} ->
+          render(conn, "edit.html", log: log, changeset: changeset, activities: activities)
+      end
+    else
+      conn
+      |> put_flash(:info, "Log cannot be updated.")
+      |> redirect(to: log_path(conn, :show, log))
     end
   end
 
