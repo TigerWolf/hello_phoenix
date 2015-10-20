@@ -17,6 +17,12 @@
     <%= @event.end_date %>
   </li>
 
+  <li>
+    <strong>Announcement:</strong>
+    <%= @event.announcement %>
+  </li>
+
+
 </ul>
 
 <%= link "Edit", to: event_path(@conn, :edit, @event) %>

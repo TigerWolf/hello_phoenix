@@ -5,12 +5,13 @@ defmodule HelloPhoenix.Event do
     field :name, :string
     field :start_date, Ecto.DateTime
     field :end_date, Ecto.DateTime
+    field :announcement, :string
 
     timestamps
   end
 
   @required_fields ~w(name start_date end_date)
-  @optional_fields ~w()
+  @optional_fields ~w(announcement)
 
   @doc """
   Creates a changeset based on the `model` and `params`.
