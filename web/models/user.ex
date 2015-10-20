@@ -11,11 +11,12 @@ defmodule HelloPhoenix.User do
 
     timestamps
 
+    belongs_to :team, HelloPhoenix.Team
     has_many :logs, HelloPhoenix.User
   end
 
   @required_fields ~w(email captain_preference name)
-  @optional_fields ~w(admin)
+  @optional_fields ~w(admin team_id)
 
   @doc """
   Creates a changeset based on the `model` and `params`.

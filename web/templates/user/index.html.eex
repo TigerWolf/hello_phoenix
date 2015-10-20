@@ -6,6 +6,7 @@
       <th>Name</th>
       <th>Email</th>
       <th>Captain Preference</th>
+      <th>Team</th>
 
       <th></th>
     </tr>
@@ -16,6 +17,7 @@
       <td><%= user.name %></td>
       <td><%= user.email %></td>
       <td><%= user.captain_preference %></td>
+      <td><%= team_name(user.team) %></td>
 
       <td class="text-right">
         <%= link "Show", to: user_path(@conn, :show, user), class: "btn btn-default btn-xs" %>
