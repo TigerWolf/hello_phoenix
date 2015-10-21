@@ -1,4 +1,6 @@
 %{"bbmustache": {:hex, :bbmustache, "1.0.3"},
+  "calecto": {:hex, :calecto, "0.4.0"},
+  "calendar": {:hex, :calendar, "0.10.2"},
   "comeonin": {:hex, :comeonin, "1.2.2"},
   "conform": {:hex, :conform, "0.17.0"},
   "cowboy": {:hex, :cowboy, "1.0.3"},
@@ -27,4 +29,5 @@
   "ranch": {:hex, :ranch, "1.1.0"},
   "relx": {:hex, :relx, "3.5.0"},
   "rollbax": {:hex, :rollbax, "0.5.1"},
-  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"}}
+  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"},
+  "tzdata": {:hex, :tzdata, "0.5.4"}}

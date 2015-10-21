@@ -18,7 +18,7 @@ defmodule HelloPhoenix.Mixfile do
   def application do
     [mod: {HelloPhoenix, []},
      applications: [:phoenix, :phoenix_html, :cowboy, :logger,
-                    :phoenix_ecto, :postgrex, :rollbax, :logger_file_backend, :comeonin, :csvlixir]]
+                    :phoenix_ecto, :postgrex, :rollbax, :logger_file_backend, :comeonin, :csvlixir, :calecto]]
   end
 
   # Specifies which paths to compile per environment
@@ -40,7 +40,8 @@ defmodule HelloPhoenix.Mixfile do
      {:plug_basic_auth, "~> 1.0"},
      {:logger_file_backend, "0.0.4"},
      {:rollbax, "~> 0.5"},
-     {:csvlixir, "~> 2.0"}
+     {:csvlixir, "~> 2.0"},
+     {:calecto, "~> 0.4.0"},
    ]
   end
 end
