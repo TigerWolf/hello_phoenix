@@ -15,7 +15,7 @@
       <td><%= log.activity.name %></td>
       <td><%= log.amount %></td>
       <td><%= log.user.email %></td>
-      <td><%= log.inserted_at %></td>
+      <td><%= log.inserted_at |> Calendar.DateTime.shift_zone!("Australia/Adelaide")  |> Calendar.Strftime.strftime!("%A, %e %B %Y") %></td>
 
       <td class="text-right">
         <%= link "Show", to: log_path(@conn, :show, log), class: "btn btn-default btn-xs" %>

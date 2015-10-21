@@ -13,7 +13,7 @@ defmodule HelloPhoenix.V1.LogView do
     %{
       id: log.id,
       amount: log.amount,
-      inserted_at: log.inserted_at,
+      inserted_at: log.inserted_at |> Calendar.Strftime.strftime!("%Y-%m-%eT%H:%M:%SZ"),
       activity_id: log.activity_id,
       # activity_name: log.activity.name
     }
