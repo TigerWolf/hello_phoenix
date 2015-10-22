@@ -31,6 +31,19 @@ defmodule HelloPhoenix.V1.LogController do
 
     case Repo.insert(changeset) do
       {:ok, log} ->
+        if log_params["yesterday"] == true do
+
+          {:ok, yesterday_date} = log.inserted_at |> Calendar.DateTime.advance(-86400)
+          {:ok, formatted_date} = Calecto.DateTimeUTC.cast(yesterday_date)
+
+          case Repo.update(%{log | :inserted_at => formatted_date}) do
+            {:ok, log} ->
+              Logger.info "success"
+            {:error, changeset} ->
+              Logger.info "error"
+            end
+        end
+
         conn
         |> put_status(:created)
         |> put_resp_header("location", v1_log_path(conn, :show, log))
