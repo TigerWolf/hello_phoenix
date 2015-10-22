@@ -21,7 +21,7 @@ defmodule HelloPhoenix.SummaryController do
           x.user_id,
           x.user.name,
           x.user.email,
-          x.inserted_at,
+          x.inserted_at |> Calendar.DateTime.shift_zone!("Australia/Adelaide") |> Calendar.Strftime.strftime!("%A, %e %B %Y"),
           x.amount * x.activity.points
         ]
       end)
