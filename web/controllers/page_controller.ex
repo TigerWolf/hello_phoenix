@@ -8,4 +8,8 @@ defmodule HelloPhoenix.PageController do
   def rules(conn, _params) do
     render conn, "rules.html"
   end
+
+  def apps(conn, _params) do
+    render conn, "apps.html"
+  end
 end
