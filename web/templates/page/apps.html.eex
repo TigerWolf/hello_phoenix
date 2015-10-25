@@ -1,3 +1,8 @@
 <div class="jumbotron">
   <h2>Download the Apps</h2>
-<p><a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/9mavy2bmqenwyu1/manifest.plist">Download iPhone/iPad App</a></p>
+  <p>To download the iPhone or iPad app, please click the below image while browsing on your phone or tablet.</p>
+  <p><a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/9mavy2bmqenwyu1/manifest.plist"><img src="images/app-store-en.png" width="400"></a></p>
+  <hr>
+  <p>To download the Android or Tablet app, please click the below image while browsing on your phone or tablet.</p>
+  <p><a href="https://play.google.com/store/apps/details?id=au.edu.adelaide.fitness"><img src="images/android-app-on-google-play.jpg" width="400"></a></p>
+</div>

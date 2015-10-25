@@ -19,7 +19,7 @@
             <li><span><a href="/rules" class="btn btn-info">Rules</a></span></li>
 
           <%= if logged_in?(@conn) do %>
-            <!--<li><span><a href="/logs/new" class="btn btn-info">Log an Activity</a></span></li>-->
+            <li><span><a href="/logs/new" class="btn btn-info">Log an Activity</a></span></li>
             <li><span style="padding: 6px 12px; display: inline-block;"><%= current_user(@conn).name %></span></li>
             <li><%= link "Logout", to: session_path(@conn, :delete), method: :delete, class: "btn btn-primary" %></li>
           <% else %>
