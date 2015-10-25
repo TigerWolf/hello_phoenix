@@ -1,3 +1,5 @@
+
+// TODO: only do this on the login page or check for elements first
 window.onload = function () {
 	document.getElementById("password1").onchange = validatePassword;
 	document.getElementById("password2").onchange = validatePassword;

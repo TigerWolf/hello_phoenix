@@ -24,7 +24,7 @@ mixpanel.init("f4713a69c0f4c6c93d9545ea966e86b0");</script><!-- end Mixpanel -->
 
           <%= if logged_in?(@conn) do %>
             <script type="text/javascript">
-              mixpanel.identify(current_user(@conn).email);
+              mixpanel.identify("<%= current_user(@conn).email %>");
             </script>
             <li><span><a href="/logs/new" class="btn btn-info">Log an Activity</a></span></li>
             <li><span style="padding: 6px 12px; display: inline-block;"><%= current_user(@conn).name %></span></li>
