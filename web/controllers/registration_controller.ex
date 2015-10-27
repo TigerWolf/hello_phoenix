@@ -8,6 +8,13 @@ defmodule HelloPhoenix.RegistrationController do
   end
 
   def create(conn, %{"user" => user_params}) do
+    changeset = User.changeset(%User{}, user_params)
+    conn
+    |> put_flash(:error, "Signup closed")
+    |> render("new.html", changeset: changeset)
+  end
+
+  def create_old(conn, %{"user" => user_params}) do
     user_params = Map.put(user_params, "admin", "false")
     changeset = User.changeset(%User{}, user_params)
 
