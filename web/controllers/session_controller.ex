@@ -25,4 +25,22 @@ defmodule HelloPhoenix.SessionController do
     |> put_flash(:info, "Logged out")
     |> redirect(to: "/")
   end
+
+  def reset(conn,params) do
+    conn
+    |> render("reset.html")
+  end
+
+  def reset_pass(conn, %{"session" => session_params}) do
+    case HelloPhoenix.Session.reset_password(session_params["recovery_hash"], session_params["password"], session_params["password_confirm"]) do
+      {:ok, user} ->
+        conn
+        |> put_flash(:info, "Password updated!")
+        |> render("reset.html")
+      {:error, reason} ->
+        conn
+        |> put_flash(:error, reason)
+        |> render("reset.html")
+    end
+  end
 end

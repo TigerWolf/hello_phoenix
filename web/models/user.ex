@@ -8,6 +8,7 @@ defmodule HelloPhoenix.User do
     field :captain_preference, :boolean
     field :name, :string
     field :admin, :boolean
+    field :recovery_hash, :string
 
     timestamps
 
@@ -33,4 +34,22 @@ defmodule HelloPhoenix.User do
     |> validate_length(:password, min: 5)
     |> validate_confirmation(:password, message: "passwords do not match")
   end
+
+  # TODO: probably should be in controller or elsewhere
+  def find_by_recovery_hash(hash) do
+    try do
+      query = from u in HelloPhoenix.User, where: u.recovery_hash == ^hash
+      HelloPhoenix.Repo.one query
+    rescue
+      e in Postgrex.Error -> PostgresErrorHandler.handle_error(__MODULE__, e)
+    end
+  end
+
+  # TODO: probably should be in controller or elsewhere
+  def change_password(user, hash) do
+    user = %{ user | recovery_hash: nil, crypted_password: hash}
+    HelloPhoenix.Repo.update(user)
+  end
+
+
 end

@@ -35,6 +35,9 @@ defmodule HelloPhoenix.Router do
     get    "/login",  SessionController, :new
     post   "/login",  SessionController, :create
     delete "/logout", SessionController, :delete
+    get    "/reset_password",  SessionController, :reset
+    post    "/reset",  SessionController, :reset_pass
+
   end
 
   #Other scopes may use custom stacks.

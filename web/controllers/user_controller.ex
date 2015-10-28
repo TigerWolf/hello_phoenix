@@ -13,7 +13,7 @@ defmodule HelloPhoenix.UserController do
   end
 
   def new(conn, _params) do
-    changeset = User.changeset(%User{}) |> Repo.preload ([:team])
+    changeset = User.changeset(%User{} |> Repo.preload ([:team]) ) 
     render(conn, "new.html", changeset: changeset, teams: teams)
   end
 
