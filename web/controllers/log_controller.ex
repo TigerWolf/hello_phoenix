@@ -6,6 +6,7 @@ defmodule HelloPhoenix.LogController do
 
   plug :scrub_params, "log" when action in [:create, :update]
 
+# TODO - show better error for users not logged in
   def index(conn, _params) do
     if admin?(conn) do
       logs = Repo.all(Log) |> Repo.preload ([:activity, :user])
