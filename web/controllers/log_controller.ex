@@ -48,14 +48,27 @@ defmodule HelloPhoenix.LogController do
   end
 
   def show(conn, %{"id" => id}) do
-    log = Repo.get!(Log, id) |> Repo.preload [:activity, :user]
-    render(conn, "show.html", log: log)
+    if !admin?(conn) do
+      conn
+      |> put_status(:not_found)
+      |> render(HelloPhoenix.ErrorView, "404.html")
+    else
+      log = Repo.get!(Log, id) |> Repo.preload [:activity, :user]
+      render(conn, "show.html", log: log)
+    end
   end
 
+  #
   def edit(conn, %{"id" => id}) do
-    log = Repo.get!(Log, id)
-    changeset = Log.changeset(log)
-    render(conn, "edit.html", log: log, changeset: changeset, activities: activities)
+    if !admin?(conn) do
+      conn
+      |> put_status(:not_found)
+      |> render(HelloPhoenix.ErrorView, "404.html")
+    else
+      log = Repo.get!(Log, id)
+      changeset = Log.changeset(log)
+      render(conn, "edit.html", log: log, changeset: changeset, activities: activities)
+    end
   end
 
   def update(conn, %{"id" => id, "log" => log_params}) do
