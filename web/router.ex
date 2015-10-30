@@ -28,6 +28,8 @@ defmodule HelloPhoenix.Router do
     resources "/logs", LogController
     get       "/summary", SummaryController, :index
     get       "/summary/csv", SummaryController, :csv
+    get       "/summary/combined", SummaryController, :combined
+
 
     get    "/register", RegistrationController, :new
     post   "/register", RegistrationController, :create
