@@ -20,6 +20,7 @@ defmodule HelloPhoenix.Router do
     get "/", PageController, :index
     get "/rules", PageController, :rules
     get "/apps", PageController, :apps
+    get "/admin", PageController, :admin
 
     resources "/activities", ActivityController
     resources "/users", UserController

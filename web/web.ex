@@ -50,7 +50,7 @@ defmodule HelloPhoenix.Web do
 
       import HelloPhoenix.Router.Helpers
 
-      import HelloPhoenix.Session, only: [current_user: 1, logged_in?: 1]
+      import HelloPhoenix.Session, only: [current_user: 1, logged_in?: 1, admin?: 1]
     end
   end
 

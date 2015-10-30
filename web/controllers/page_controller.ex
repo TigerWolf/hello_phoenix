@@ -12,4 +12,14 @@ defmodule HelloPhoenix.PageController do
   def apps(conn, _params) do
     render conn, "apps.html"
   end
+
+  def admin(conn, _params) do
+    if admin?(conn) do
+      render conn, "admin.html"
+    else
+      conn
+      |> put_status(:not_found)
+      |> render(HelloPhoenix.ErrorView, "404.html")
+    end
+  end
 end
