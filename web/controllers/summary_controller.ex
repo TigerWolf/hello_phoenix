@@ -51,7 +51,6 @@ defmodule HelloPhoenix.SummaryController do
       end)
       Map.put(user_map,elem(log,0),events)
     end)
-    Logger.info "users " <> inspect(users)
 
     logs2 = Enum.flat_map(users, fn(user) ->
       traverse_user(user)
