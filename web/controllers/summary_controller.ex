@@ -33,6 +33,54 @@ defmodule HelloPhoenix.SummaryController do
     conn |> put_resp_content_type("text/csv") |> send_resp(200, logs)
   end
 
+  def combined(conn, _params) do
+
+    logs = Repo.all(Log)
+      |> Repo.preload([:activity, user: :team])
+      |> Enum.group_by(&(&1.user.name))
+
+    users = Enum.reduce(logs, %{}, fn(log, user_map) ->
+      days = Enum.group_by(elem(log, 1), &(&1.inserted_at |> Calendar.Strftime.strftime!("%A, %e %B %Y")))
+      events = Enum.reduce(days, %{}, fn(day, event_map) ->
+        activity = Enum.group_by(elem(day, 1), &(&1.activity.name))
+        sum = Enum.reduce(activity, %{}, fn(activity, y) ->
+          log_sum = Enum.reduce(elem(activity,1), 0, &(&1.amount + &2))
+          Map.put(y, elem(activity,0), log_sum)
+        end)
+        Map.put(event_map,elem(day,0),sum)
+      end)
+      Map.put(user_map,elem(log,0),events)
+    end)
+    Logger.info "users " <> inspect(users)
+
+    logs2 = Enum.flat_map(users, fn(user) ->
+      traverse_user(user)
+    end)
+    |> CSVLixir.write
+    |> Enum.to_list
+
+    conn |> put_resp_content_type("text/csv") |> send_resp(200, logs2)
+  end
+
+  def traverse_user(user) do
+    {username, dates} = user
+    date_result = Enum.flat_map(dates, fn(date) ->
+      traverse_date(date, username)
+    end)
+  end
+
+  def traverse_date(date, username) do
+    {date_string, activites} = date
+    date_result = Enum.map(activites, fn(activity) ->
+      traverse_activities(activity, username, date_string)
+    end)
+  end
+
+  def traverse_activities(activity, username, date_string) do
+    {activity_name, amount} = activity
+    [username, activity_name, amount, date_string]
+  end
+
   def team_name(nil), do: ""
   def team_name(team), do: team.name
 

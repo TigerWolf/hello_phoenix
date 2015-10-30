@@ -29,19 +29,21 @@ defmodule HelloPhoenix.Mixfile do
   #
   # Type `mix help deps` for examples and options
   defp deps do
-    [{:phoenix, "~> 1.0.3"},
-     {:phoenix_ecto, "~> 1.1"},
-     {:postgrex, ">= 0.0.0"},
-     {:phoenix_html, "~> 2.1"},
-     {:phoenix_live_reload, "~> 1.0", only: :dev},
-     {:cowboy, "~> 1.0"},
-     {:exrm, "~> 0.19"},
-     {:comeonin, "~> 1.0"},
-     {:plug_basic_auth, "~> 1.0"},
-     {:logger_file_backend, "0.0.4"},
-     {:rollbax, "~> 0.5"},
-     {:csvlixir, "~> 2.0"},
-     {:calecto, "~> 0.4.0"},
+    [
+      {:phoenix, "~> 1.0.3"},
+      {:phoenix_ecto, "~> 1.1"},
+      {:postgrex, ">= 0.0.0"},
+      {:phoenix_html, "~> 2.1"},
+      {:phoenix_live_reload, "~> 1.0", only: :dev},
+      {:cowboy, "~> 1.0"},
+      {:exrm, "~> 0.19"},
+      {:comeonin, "~> 1.0"},
+      {:plug_basic_auth, "~> 1.0"},
+      {:logger_file_backend, "0.0.4"},
+      {:rollbax, "~> 0.5"},
+      {:csvlixir, "~> 2.0"},
+      {:calecto, "~> 0.4.0"},
+      {:mailgun, "~> 0.1.1"},
    ]
   end
 end
