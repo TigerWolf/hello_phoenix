@@ -43,4 +43,20 @@ defmodule HelloPhoenix.SessionController do
         |> render("reset.html")
     end
   end
+
+  def request_reset(conn, params) do
+    conn
+    |> render("request_reset.html")
+  end
+
+  def request_reset_send(conn, %{"session" => session_params}) do
+    uuid = UUID.uuid4()
+    HelloPhoenix.Mailer.send_reset_email(session_params["email"], uuid)
+    user = HelloPhoenix.User.find_by_email(session_params["email"])
+    user = %{ user | recovery_hash: uuid}
+    HelloPhoenix.Repo.update(user)
+    conn
+    |> put_flash(:info, "Email sent, follow the instructions.")
+    |> render("request_reset.html")
+  end
 end

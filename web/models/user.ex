@@ -46,6 +46,16 @@ defmodule HelloPhoenix.User do
   end
 
   # TODO: probably should be in controller or elsewhere
+  def find_by_email(email) do
+    try do
+      query = from u in HelloPhoenix.User, where: u.email == ^email
+      HelloPhoenix.Repo.one query
+    rescue
+      e in Postgrex.Error -> PostgresErrorHandler.handle_error(__MODULE__, e)
+    end
+  end
+
+  # TODO: probably should be in controller or elsewhere
   def change_password(user, hash) do
     user = %{ user | recovery_hash: nil, crypted_password: hash}
     HelloPhoenix.Repo.update(user)

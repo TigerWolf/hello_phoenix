@@ -33,6 +33,10 @@ config :logger, :error_log,
   path: "log/error.log",
   level: :error
 
+
+config :hello_phoenix, mailgun_domain: "https://api.mailgun.net/v3/sandbox50e5ab1cb0b74ae3ac73c38bd52e15d5.mailgun.org",
+                  mailgun_key: "key-680e9af3b1333d4b06951c380f650641"  
+
 # Set a higher stacktrace during development.
 # Do not configure such in production as keeping
 # and calculating stacktraces is usually expensive.

@@ -40,6 +40,8 @@ defmodule HelloPhoenix.Router do
     delete "/logout", SessionController, :delete
     get    "/reset_password",  SessionController, :reset
     post    "/reset",  SessionController, :reset_pass
+    get    "/request_reset",  SessionController, :request_reset
+    post    "/request_reset",  SessionController, :request_reset_send
 
   end
 

@@ -44,6 +44,7 @@ defmodule HelloPhoenix.Mixfile do
       {:csvlixir, "~> 2.0"},
       {:calecto, "~> 0.4.0"},
       {:mailgun, "~> 0.1.1"},
+      { :uuid, "~> 1.1" },
    ]
   end
 end

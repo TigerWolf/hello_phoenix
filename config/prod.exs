@@ -30,6 +30,9 @@ config :logger, :error_log,
 config :logger, Rollbax.Notifier,
   level: :error
 
+config :hello_phoenix, mailgun_domain: "https://api.mailgun.net/v3/challengecup.club",
+                  mailgun_key: "key-680e9af3b1333d4b06951c380f650641"
+
 # ## SSL Support
 #
 # To get SSL working, you will need to add the `https` key
