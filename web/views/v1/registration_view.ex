@@ -1,7 +1,7 @@
 defmodule HelloPhoenix.V1.RegistrationView do
   use HelloPhoenix.Web, :view
 
-  def render("index.json", params) do
+  def render("index.json", _params) do
     %{data: "true"}
   end
 

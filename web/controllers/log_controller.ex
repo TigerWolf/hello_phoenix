@@ -22,7 +22,7 @@ defmodule HelloPhoenix.LogController do
   end
 
   def activities do
-    activities = Repo.all(Activity)
+    Repo.all(Activity)
       |> Enum.map( fn(activity) ->
       { activity.name, activity.id}
     end)

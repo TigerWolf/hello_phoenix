@@ -1,7 +1,6 @@
 defmodule HelloPhoenix.V1.SessionController do
   use HelloPhoenix.Web, :controller
 
-  alias HelloPhoenix.Session
   alias HelloPhoenix.User
 
   plug HelloPhoenix.Plugs.Authenticated

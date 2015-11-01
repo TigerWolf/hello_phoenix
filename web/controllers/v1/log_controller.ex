@@ -7,8 +7,6 @@ defmodule HelloPhoenix.V1.LogController do
 
   plug :scrub_params, "log" when action in [:create, :update]
 
-  import Logger
-
   def index(conn, _params) do
     user_id = conn.assigns.user_id
     logs = Repo.all(
@@ -38,9 +36,11 @@ defmodule HelloPhoenix.V1.LogController do
 
           case Repo.update(%{log | :inserted_at => formatted_date}) do
             {:ok, log} ->
-              Logger.info "success"
+              success = true
+              # Logger.info "success"
             {:error, changeset} ->
-              Logger.info "error"
+              success = false
+              # Logger.info "error"
             end
         end
 
