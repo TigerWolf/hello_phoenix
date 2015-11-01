@@ -40,7 +40,7 @@ defmodule HelloPhoenix.SummaryController do
       |> Enum.group_by(&(&1.user.name))
 
     users = Enum.reduce(logs, %{}, fn(log, user_map) ->
-      days = Enum.group_by(elem(log, 1), &(&1.inserted_at |> Calendar.Strftime.strftime!("%A, %e %B %Y")))
+      days = Enum.group_by(elem(log, 1), &(&1.inserted_at |> Calendar.DateTime.shift_zone!("Australia/Adelaide") |> Calendar.Strftime.strftime!("%A, %e %B %Y")))
       events = Enum.reduce(days, %{}, fn(day, event_map) ->
         activity = Enum.group_by(elem(day, 1), &(&1.activity.name))
         sum = Enum.reduce(activity, %{}, fn(activity, y) ->
