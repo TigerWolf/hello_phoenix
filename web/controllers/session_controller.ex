@@ -26,14 +26,14 @@ defmodule HelloPhoenix.SessionController do
     |> redirect(to: "/")
   end
 
-  def reset(conn,params) do
+  def reset(conn, _) do
     conn
     |> render("reset.html")
   end
 
   def reset_pass(conn, %{"session" => session_params}) do
     case HelloPhoenix.Session.reset_password(session_params["recovery_hash"], session_params["password"], session_params["password_confirm"]) do
-      {:ok, user} ->
+      {:ok, _user} ->
         conn
         |> put_flash(:info, "Password updated!")
         |> render("reset.html")
@@ -44,7 +44,7 @@ defmodule HelloPhoenix.SessionController do
     end
   end
 
-  def request_reset(conn, params) do
+  def request_reset(conn, _) do
     conn
     |> render("request_reset.html")
   end
@@ -53,10 +53,16 @@ defmodule HelloPhoenix.SessionController do
     uuid = UUID.uuid4()
     HelloPhoenix.Mailer.send_reset_email(session_params["email"], uuid)
     user = HelloPhoenix.User.find_by_email(session_params["email"])
-    user = %{ user | recovery_hash: uuid}
-    HelloPhoenix.Repo.update(user)
-    conn
-    |> put_flash(:info, "Email sent, follow the instructions.")
-    |> render("request_reset.html")
+    if (user != nil) do
+      user = %{ user | recovery_hash: uuid}
+      HelloPhoenix.Repo.update(user)
+      conn
+      |> put_flash(:info, "Email sent, follow the instructions.")
+      |> render("request_reset.html")
+    else
+      conn
+      |> put_flash(:error, "Email not recognised.")
+      |> render("request_reset.html")
+    end
   end
 end
