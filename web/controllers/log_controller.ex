@@ -11,12 +11,18 @@ defmodule HelloPhoenix.LogController do
     if admin?(conn) do
       logs = Repo.all(Log) |> Repo.preload ([:activity, :user])
     else
-      user_id = current_user(conn).id
-      logs = Repo.all(
-        from l in Log,
-          where: l.user_id == ^user_id,
-          select: l
-      ) |> Repo.preload([:activity, :user])
+      user = current_user(conn)
+      if user do
+        logs = Repo.all(
+          from l in Log,
+            where: l.user_id == ^user.id,
+            select: l
+        ) |> Repo.preload([:activity, :user])
+      else
+        conn
+        |> put_status(401)
+        |> render(HelloPhoenix.ErrorView, "401.html")
+      end
     end
     render(conn, "index.html", logs: logs)
   end

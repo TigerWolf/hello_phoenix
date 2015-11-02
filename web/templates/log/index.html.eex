@@ -19,7 +19,7 @@
 
       <td class="text-right">
         <%= link "Show", to: log_path(@conn, :show, log), class: "btn btn-default btn-xs" %>
-        <%= link "Edit", to: log_path(@conn, :edit, log), class: "btn btn-default btn-xs" %>
+        <%= if admin?(@conn) do %><%= link "Edit", to: log_path(@conn, :edit, log), class: "btn btn-default btn-xs" %><% end %>
         <%= link "Delete", to: log_path(@conn, :delete, log), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %>
       </td>
     </tr>
