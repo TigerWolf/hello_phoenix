@@ -16,6 +16,7 @@ defmodule HelloPhoenix.LogController do
         logs = Repo.all(
           from l in Log,
             where: l.user_id == ^user.id,
+            order_by: [desc: l.inserted_at],
             select: l
         ) |> Repo.preload([:activity, :user])
       else
@@ -45,7 +46,21 @@ defmodule HelloPhoenix.LogController do
     changeset = Log.changeset(%Log{}, log_params)
 
     case Repo.insert(changeset) do
-      {:ok, _log} ->
+      {:ok, log} ->
+        if (log_params["yesterday"] == true || log_params["yesterday"] == "true") do
+
+          {:ok, yesterday_date} = log.inserted_at |> Calendar.DateTime.advance(-86400)
+          {:ok, formatted_date} = Calecto.DateTimeUTC.cast(yesterday_date)
+
+          case Repo.update(%{log | :inserted_at => formatted_date}) do
+            {:ok, log} ->
+              success = true
+              # Logger.info "success"
+            {:error, changeset} ->
+              success = false
+              # Logger.info "error"
+            end
+        end
         conn
         |> put_flash(:info, "Log created successfully.")
         |> redirect(to: log_path(conn, :index))

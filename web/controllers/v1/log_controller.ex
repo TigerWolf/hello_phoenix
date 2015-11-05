@@ -43,7 +43,6 @@ defmodule HelloPhoenix.V1.LogController do
               # Logger.info "error"
             end
         end
-
         conn
         |> put_status(:created)
         |> put_resp_header("location", v1_log_path(conn, :show, log))

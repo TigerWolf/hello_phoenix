@@ -13,7 +13,7 @@ defmodule HelloPhoenix.User do
     timestamps
 
     belongs_to :team, HelloPhoenix.Team
-    has_many :logs, HelloPhoenix.User
+    has_many :logs, HelloPhoenix.Log
   end
 
   @required_fields ~w(email captain_preference name)
