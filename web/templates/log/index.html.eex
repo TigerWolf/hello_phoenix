@@ -5,7 +5,7 @@
     <tr>
       <th>Activity</th>
       <th>Amount</th>
-      <th>User</th>
+      <%= if admin?(@conn) do %><th>User</th><% end %>
       <th>Posted</th>
     </tr>
   </thead>
@@ -14,7 +14,7 @@
     <tr>
       <td><%= log.activity.name %></td>
       <td><%= log.amount %></td>
-      <td><%= log.user.email %></td>
+      <%= if admin?(@conn) do %><td><%= log.user.email %></td><% end %>
       <td><%= log.inserted_at |> Calendar.DateTime.shift_zone!("Australia/Adelaide")  |> Calendar.Strftime.strftime!("%A, %e %B %Y") %></td>
 
       <td class="text-right">
