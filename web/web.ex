@@ -20,7 +20,6 @@ defmodule HelloPhoenix.Web do
     quote do
       use Ecto.Model
       use Calecto.Model, usec: true
-
     end
   end
 

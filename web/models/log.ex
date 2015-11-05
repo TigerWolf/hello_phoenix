@@ -22,4 +22,8 @@ defmodule HelloPhoenix.Log do
     model
     |> cast(params, @required_fields, @optional_fields)
   end
+
+  def points(log) do
+    log.amount * log.activity.points
+  end
 end

@@ -13,7 +13,8 @@ defmodule HelloPhoenix.V1.ActivityView do
     %{
       id: activity.id,
       title: activity.name,
-      event_id: activity.event.id
+      event_id: activity.event.id,
+      points: activity.points
     }
   end
 
