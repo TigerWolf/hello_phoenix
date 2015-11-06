@@ -10,7 +10,8 @@ defmodule HelloPhoenix.Log do
   end
 
   @required_fields ~w(amount activity_id user_id)
-  @optional_fields ~w()
+  # TODO, FIXME: This is a security concern and users can craft requests to alter the date of new logs
+  @optional_fields ~w(inserted_at)
 
   @doc """
   Creates a changeset based on the `model` and `params`.
@@ -24,6 +25,9 @@ defmodule HelloPhoenix.Log do
   end
 
   def points(log) do
-    log.amount * log.activity.points
+    log.amount * activity_points(log.activity)
   end
+
+  def activity_points(nil), do: 0
+  def activity_points(activity), do: activity.points
 end

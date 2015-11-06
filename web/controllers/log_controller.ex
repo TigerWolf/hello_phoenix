@@ -6,8 +6,8 @@ defmodule HelloPhoenix.LogController do
 
   plug :scrub_params, "log" when action in [:create, :update]
 
-# TODO - show better error for users not logged in
   def index(conn, _params) do
+
     if admin?(conn) do
       logs = Repo.all(Log) |> Repo.preload ([:activity, :user])
     else
@@ -23,9 +23,10 @@ defmodule HelloPhoenix.LogController do
         conn
         |> put_status(401)
         |> render(HelloPhoenix.ErrorView, "401.html")
+        exit("Page already rendered.")
       end
     end
-    render(conn, "index.html", logs: logs)
+    render(conn, "index.html", logs: logs, current_user: current_user(conn))
   end
 
   def activities do
@@ -37,7 +38,7 @@ defmodule HelloPhoenix.LogController do
 
   def new(conn, _params) do
     changeset = Log.changeset(%Log{} |> Repo.preload ([:activity, :user]))
-    render(conn, "new.html", changeset: changeset, activities: activities)
+    render(conn, "new.html", changeset: changeset, activities: activities, current_user: current_user(conn))
   end
 
   def create(conn, %{"log" => log_params}) do
@@ -89,7 +90,7 @@ defmodule HelloPhoenix.LogController do
     else
       log = Repo.get!(Log, id)
       changeset = Log.changeset(log)
-      render(conn, "edit.html", log: log, changeset: changeset, activities: activities)
+      render(conn, "edit.html", log: log, changeset: changeset, activities: activities, current_user: current_user(conn))
     end
   end
 

@@ -15,9 +15,12 @@ defmodule HelloPhoenix.V1.LogView do
       amount: log.amount,
       inserted_at: log.inserted_at |> Calendar.Strftime.strftime!("%Y-%m-%eT%H:%M:%SZ"),
       activity_id: log.activity_id,
-      # points: HelloPhoenix.Log.points(log),
-      # activity_name: log.activity.name
+      points: HelloPhoenix.Log.points(log),
+      activity_name: activity_name(log.activity)
     }
   end
+
+  def activity_name(nil), do: ""
+  def activity_name(activity), do: activity.name
 
 end

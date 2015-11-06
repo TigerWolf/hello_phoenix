@@ -25,7 +25,7 @@ defmodule HelloPhoenix.V1.LogController do
   def create(conn, %{"log" => log_params}) do
 
     log_params = Map.put(log_params, "user_id", conn.assigns.user_id)
-    changeset = Log.changeset(%Log{}, log_params)
+    changeset = Log.changeset((%Log{} |> Repo.preload :activity), log_params)
 
     case Repo.insert(changeset) do
       {:ok, log} ->
