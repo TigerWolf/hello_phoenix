@@ -10,6 +10,7 @@ defmodule HelloPhoenix.LogController do
 
     if admin?(conn) do
       logs = Repo.all(Log) |> Repo.preload ([:activity, :user])
+      render(conn, "index.html", logs: logs, current_user: current_user(conn))
     else
       user = current_user(conn)
       if user do
@@ -19,14 +20,14 @@ defmodule HelloPhoenix.LogController do
             order_by: [desc: l.inserted_at],
             select: l
         ) |> Repo.preload([:activity, :user])
+        render(conn, "index.html", logs: logs, current_user: current_user(conn))
       else
         conn
         |> put_status(401)
         |> render(HelloPhoenix.ErrorView, "401.html")
-        exit("Page already rendered.")
       end
     end
-    render(conn, "index.html", logs: logs, current_user: current_user(conn))
+
   end
 
   def activities do

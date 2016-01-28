@@ -18,8 +18,15 @@ defmodule HelloPhoenix.Web do
 
   def model do
     quote do
-      use Ecto.Model
+      use Ecto.Schema
+
+      import Ecto
+      import Ecto.Changeset
+      import Ecto.Query, only: [from: 1, from: 2]
+
       use Calecto.Model, usec: true
+
+
     end
   end
 
@@ -28,6 +35,7 @@ defmodule HelloPhoenix.Web do
       use Phoenix.Controller
 
       alias HelloPhoenix.Repo
+      import Ecto
       import Ecto.Model
       import Ecto.Query, only: [from: 1, from: 2]
 
@@ -48,6 +56,8 @@ defmodule HelloPhoenix.Web do
       use Phoenix.HTML
 
       import HelloPhoenix.Router.Helpers
+      import HelloPhoenix.ErrorHelpers
+      import HelloPhoenix.Gettext
 
       import HelloPhoenix.Session, only: [current_user: 1, logged_in?: 1]
     end
@@ -64,6 +74,7 @@ defmodule HelloPhoenix.Web do
       use Phoenix.Channel
 
       alias HelloPhoenix.Repo
+      import Ecto
       import Ecto.Model
       import Ecto.Query, only: [from: 1, from: 2]
 

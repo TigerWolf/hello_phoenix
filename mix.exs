@@ -3,10 +3,10 @@ defmodule HelloPhoenix.Mixfile do
 
   def project do
     [app: :hello_phoenix,
-     version: "0.0.2",
+     version: "0.0.3",
      elixir: "~> 1.0",
      elixirc_paths: elixirc_paths(Mix.env),
-     compilers: [:phoenix] ++ Mix.compilers,
+     compilers: [:phoenix, :gettext] ++ Mix.compilers,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
@@ -17,7 +17,7 @@ defmodule HelloPhoenix.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {HelloPhoenix, []},
-     applications: [:phoenix, :phoenix_html, :cowboy, :logger,
+     applications: [:phoenix, :phoenix_html, :cowboy, :logger, :gettext,
                     :phoenix_ecto, :postgrex, :rollbax, :logger_file_backend,
                      :comeonin, :csvlixir, :calecto, :uuid, :mailgun
                      ]]
@@ -32,11 +32,12 @@ defmodule HelloPhoenix.Mixfile do
   # Type `mix help deps` for examples and options
   defp deps do
     [
-      {:phoenix, "~> 1.0.3"},
-      {:phoenix_ecto, "~> 1.1"},
-      {:postgrex, ">= 0.0.0"},
+      {:phoenix, "~> 1.1"},
+      {:phoenix_ecto, "~> 2.0"},
+      {:postgrex, ">= 0.11.0"},
       {:phoenix_html, "~> 2.1"},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
+      {:gettext, "~> 0.9"},
       {:cowboy, "~> 1.0"},
       {:exrm, "~> 0.19"},
       {:comeonin, "~> 1.0"},
@@ -46,7 +47,7 @@ defmodule HelloPhoenix.Mixfile do
       {:csvlixir, "~> 2.0"},
       {:calecto, "~> 0.4.0"},
       {:mailgun, "~> 0.1.1"},
-      { :uuid, "~> 1.1" },
+      {:uuid, "~> 1.1" },
    ]
   end
 end

@@ -55,6 +55,7 @@ defmodule HelloPhoenix.Router do
       get       "/login",  SessionController, :create
       post      "/register", RegistrationController, :create
       get       "/event", EventController, :index
+      get       "/summary", SummaryController, :index
     end
   end
 end

@@ -1,0 +1,68 @@
+---
+
+## INSTRUCTIONS
+# Add user phoenix on server
+# Give sudo access
+#  gpasswd -a phoenix wheel
+
+# Install Rebar
+# Install Hex
+
+# npm Install
+# -> Install brunch
+# create prod.secret
+
+# MIX_ENV=prod mix release ??
+# $(npm bin)/brunch build --production
+# MIX_ENV=prod mix phoenix.digest
+# sudo -u postgres psql hello_phoenix_prod
+# alter user phoenix with password 'd2VzPM3Cc2rtpRu';
+# vi /var/lib/pgsql/9.4/data/pg_hba.conf
+# # IPv4 local connections:
+# host    all             all             127.0.0.1/32            md5
+# # IPv6 local connections:
+# host    all             all             ::1/128                 md5
+# systemctl restart postgresql-9.4
+# PORT=4001 MIX_ENV=prod mix ecto.migrate
+# PORT=4001 MIX_ENV=prod mix phoenix.server
+
+# Detached
+# MIX_ENV=prod PORT=4001 elixir --detached -S mix do compile, phoenix.server
+
+- hosts: all
+  user: phoenix
+
+  vars:
+    # postgresql_pg_hba_conf:
+    #   - host all all 10.0.0.0/8 md5
+
+    phoenix_use_brunch: true
+    phoenix_use_ecto:   true
+
+    # Mix environment (propagates to Phoenix.)
+    phoenix_env: prod
+
+    # Server port.
+    phoenix_port: 4000
+
+    # User for running the server.
+    phoenix_user:  hello_phoenix
+    phoenix_group: hello_phoenix
+
+    phoenix_path: /var/www
+
+    phoenix_bin: mix phoenix.server
+
+
+  roles:
+    # Dependencies
+    # - { role: galaxyprojectdotorg.postgresql, sudo:   true }
+    # - { role: ~/dev/ansible-elixir, erlang_version: 18.1, elixir_version: v1.1.1, sudo: true }
+    # - { role: advertine.nodejs, nodejs_version: "4.1.0", sudo: true  }
+    - { role:  carlos22.nginx}
+
+    # Bring in the default Phoenix app for testing
+    - { role: hello_phoenix, app_name: hello_phoenix }
+
+    # - { role: lnikkila.phoenix }
+    - { role: ~/dev/ansible-phoenix }
