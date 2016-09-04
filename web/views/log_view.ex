@@ -5,12 +5,9 @@ defmodule HelloPhoenix.LogView do
     logged_in(conn.assigns.current_user) == true
   end
 
-  def logged_in(nil) do
-    false
-  end
+  def logged_in(nil), do: false
 
-  def logged_in(current_user) do
-    current_user.admin
-  end
+  # TODO: doesnt look right for normal users
+  def logged_in(current_user), do: current_user.admin
 
 end

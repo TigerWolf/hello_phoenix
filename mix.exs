@@ -3,8 +3,8 @@ defmodule HelloPhoenix.Mixfile do
 
   def project do
     [app: :hello_phoenix,
-     version: "0.0.3",
-     elixir: "~> 1.0",
+     version: "0.0.4",
+     elixir: "~> 1.2",
      elixirc_paths: elixirc_paths(Mix.env),
      compilers: [:phoenix, :gettext] ++ Mix.compilers,
      build_embedded: Mix.env == :prod,
@@ -32,10 +32,10 @@ defmodule HelloPhoenix.Mixfile do
   # Type `mix help deps` for examples and options
   defp deps do
     [
-      {:phoenix, "~> 1.1.4"},
+      {:phoenix, "~> 1.1.6"},
       {:phoenix_ecto, "~> 2.0"},
       {:postgrex, ">= 0.11.0"},
-      {:phoenix_html, "~> 2.1"},
+      {:phoenix_html, "~> 2.6"},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.9"},
       {:cowboy, "~> 1.0"},
