@@ -1,0 +1,14 @@
+User is: <%= @user.name %>
+<br>
+The count is: <%= @count %>
+
+
+User stats - breakdown by activity by day. (we can do a pretty graph).
+
+We also need to do team totals.
+
+So:
+
+/summary/teams - just teams totals
+/summary/user - user totals (with breakdown)
+/summary/team - team totals (with breakdown)

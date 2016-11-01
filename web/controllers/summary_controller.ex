@@ -2,6 +2,9 @@ defmodule HelloPhoenix.SummaryController do
   use HelloPhoenix.Web, :controller
 
   alias HelloPhoenix.Log
+  alias HelloPhoenix.User
+  alias HelloPhoenix.Team
+
   plug HelloPhoenix.Plugs.AdminProtection
 
   def index(conn, _params) do
@@ -59,6 +62,27 @@ defmodule HelloPhoenix.SummaryController do
     |> Enum.to_list
 
     conn |> put_resp_content_type("text/csv") |> send_resp(200, logs2)
+  end
+
+  def totals(conn, _params) do
+    user = Repo.get!(User, 1)
+    logs = Repo.all(
+      from l in Log,
+        where: l.user_id == ^user.id,
+        order_by: [desc: l.inserted_at],
+        select: l
+    ) |> Repo.preload([:activity, :user])
+    # count = 0
+    # for log  <- logs do
+    #   count = count + Log.points(log)
+    # end
+    count = Enum.reduce(logs, 0, &(Log.points(&1) + &2))
+    render(conn, "totals.html", count: count, user: user)
+  end
+
+  def teams(conn, _params) do
+    teams = Repo.all(Team) |> Repo.preload([users: [ :team, logs: [:activity, :user]]])
+    render(conn, "teams.html", teams: teams)
   end
 
   def traverse_user(user) do

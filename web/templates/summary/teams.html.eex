@@ -1,0 +1,6 @@
+<ul>
+  <%= for team <- @teams do %>
+    <li><label><%= team.name %></label>
+    <%= HelloPhoenix.Team.total_points(team) %></li>
+  <% end %>
+</ul>
