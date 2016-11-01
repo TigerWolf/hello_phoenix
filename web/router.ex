@@ -28,6 +28,8 @@ defmodule HelloPhoenix.Router do
     resources "/teams", TeamController
     resources "/logs", LogController
     get       "/summary", SummaryController, :index
+    get       "/summary/totals", SummaryController, :totals
+    get       "/summary/teams", SummaryController, :teams
     get       "/summary/csv", SummaryController, :csv
     get       "/summary/combined", SummaryController, :combined
 
