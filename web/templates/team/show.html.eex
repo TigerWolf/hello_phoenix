@@ -12,6 +12,20 @@
     <%= @team.event_id %>
   </li>
 
+  <li>
+    <strong>Captain:</strong>
+    <%= link @team.captain.name, to: user_path(@conn, :show, @team.captain) %>
+  </li>
+
+  <li>
+    <strong>Team Members:</strong>
+    <ul>
+    <%= for user <- @team.users do %>
+      <li><%= link user.name, to: user_path(@conn, :show, user) %></li>
+    <% end %>
+    </ul>
+  </li>
+
 </ul>
 
 <%= link "Edit", to: team_path(@conn, :edit, @team) %>

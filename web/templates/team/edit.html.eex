@@ -1,6 +1,6 @@
 <h2>Edit team</h2>
 
 <%= render "form.html", changeset: @changeset,
-                        action: team_path(@conn, :update, @team) %>
+                        action: team_path(@conn, :update, @team), captains: @captains %>
 
 <%= link "Back", to: team_path(@conn, :index) %>

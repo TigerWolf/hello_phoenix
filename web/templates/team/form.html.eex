@@ -16,6 +16,11 @@
   </div>
 
   <div class="form-group">
+    <%= label f, :captain, "Captain", class: "control-label" %>
+    <%= select f, :captain_id, @captains, prompt: "Choose a captain"%>
+  </div>
+
+  <div class="form-group">
     <%= submit "Submit", class: "btn btn-primary" %>
   </div>
 <% end %>

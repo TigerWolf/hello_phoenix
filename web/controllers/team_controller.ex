@@ -2,6 +2,7 @@ defmodule HelloPhoenix.TeamController do
   use HelloPhoenix.Web, :controller
 
   alias HelloPhoenix.Team
+  alias HelloPhoenix.User
   plug HelloPhoenix.Plugs.AdminProtection
 
   plug :scrub_params, "team" when action in [:create, :update]
@@ -12,7 +13,7 @@ defmodule HelloPhoenix.TeamController do
   end
 
   def new(conn, _params) do
-    changeset = Team.changeset(%Team{})
+    changeset = Team.changeset(%Team{} |> Repo.preload ([:captain]))
     render(conn, "new.html", changeset: changeset)
   end
 
@@ -30,18 +31,18 @@ defmodule HelloPhoenix.TeamController do
   end
 
   def show(conn, %{"id" => id}) do
-    team = Repo.get!(Team, id)
+    team = Repo.get!(Team, id) |> Repo.preload ([:captain, :users])
     render(conn, "show.html", team: team)
   end
 
   def edit(conn, %{"id" => id}) do
-    team = Repo.get!(Team, id)
+    team = Repo.get!(Team, id) |> Repo.preload ([:captain, :users])
     changeset = Team.changeset(team)
-    render(conn, "edit.html", team: team, changeset: changeset)
+    render(conn, "edit.html", team: team, changeset: changeset, captains: captains)
   end
 
   def update(conn, %{"id" => id, "team" => team_params}) do
-    team = Repo.get!(Team, id)
+    team = Repo.get!(Team, id) |> Repo.preload ([:captain])
     changeset = Team.changeset(team, team_params)
 
     case Repo.update(changeset) do
@@ -65,4 +66,14 @@ defmodule HelloPhoenix.TeamController do
     |> put_flash(:info, "Team deleted successfully.")
     |> redirect(to: team_path(conn, :index))
   end
+
+
+  def captains do
+    # Add query to only find Captains (preference?)
+    captains = Repo.all(User)
+      |> Enum.map( fn(captain) ->
+      { captain.name, captain.id}
+    end)
+  end
+
 end

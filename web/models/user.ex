@@ -14,10 +14,12 @@ defmodule HelloPhoenix.User do
 
     belongs_to :team, HelloPhoenix.Team
     has_many :logs, HelloPhoenix.Log
+    # belongs_to :team, <- captain relationship?
+    # has_many :events, through: [:user_events, :event] #  HelloPhoenix.Event,
   end
 
-  @required_fields ~w(email captain_preference name)
-  @optional_fields ~w(admin team_id)
+  @required_fields ~w(email name)
+  @optional_fields ~w(admin team_id captain_preference)
 
   @doc """
   Creates a changeset based on the `model` and `params`.
